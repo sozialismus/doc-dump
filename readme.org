@@ -11,6 +11,7 @@ For more information about our methodology and approach in handling the various 
   - Name of directory = ID-number
   - In every ID-number-directory, two subdirectories are to be found: ID/texts & ID/annotations
 - The same structure follows with annotations: /789/annotations/789-annotation-version.txt
+- Possibly, the ID-directories will be grouped into base directories according to their origin/source, ie. Acts would be inside /SBLGNT/789 and so on.
 
 
 ** Structure of files:
@@ -25,7 +26,7 @@ For more information about our methodology and approach in handling the various 
   - /annotations
     - .csv - .csv ("," = integer) with three columns, header = 1) ID - matches a given token 2) TOKEN - given word within a text & 3) the various functions/attributes from the NLP-analysis.
       - ID-lemma.csv
-        - Purpose: Identifies the lemma (base form for a given morpheme), ie. ἀπενίψατο --> ἀπονίπτω 
+        - Purpose: Identifies the lemma (base form for a given morpheme), ie. ἀπενίψατο --> ἀπονίπτω
       - ID-upos.csv
         - Purpose: Maps words to their grammatical categories based on the Universal Dependencies (UD) framework. Assigns tags like NOUN, VERB, ADJ, ADV, PRON.
       - 789-ner.csv
@@ -33,4 +34,4 @@ For more information about our methodology and approach in handling the various 
       - 789-stop.csv
         - Purpose: Flags stop words (common words with low contextual meaning) to improve text processing efficiency.
       - 789-dot.csv
-        - Simply identifies punctuation - not limited to only full stops, but also the raised dot (typically used as a (semi-)colon in modern punctuation - ·). Nifty for adding context in sentence segmentation.
+        - Simply identifies punctuation - not limited to only full stops, but also the raised dot (typically used as a (semi-)colon in modern punctuation - ·/·). Nifty for adding context in sentence segmentation.
