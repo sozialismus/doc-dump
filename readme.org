@@ -1,0 +1,36 @@
+* Introduction
+This repo and the files contained here are a part of the Computing Antiquity research project, which you can read about [[https://pure.au.dk/portal/da/projects/computing-antiquity][here]] and [[https://nt.au.dk/forskningsprojekter/computing-antiquity-computational-research-in-ancient-text-corpora][here]]. The repo as such contains various versions intended for the database, which you can visit [[https://computing-antiquity.au.dk/][here]].
+
+For more information about our methodology and approach in handling the various raw texts, please consult our main repo for further details. This repo is only intended as an intermediary storage for the various files, before they are uploaded to our online database, in which not only the texts, but also important metadata is available.
+
+** Structure of directories
+- Inside of our main database website, we have assigned a project-specific ID to the various texts, which form the basis for identification for our selected purposes, ie. adding further metadata and so on.
+- Therefore, the ID-number is the basis for identifying files within here. Say that you want to access Acts (Πράξεις ἀποστόλων), which has been assigned the id "789".
+  - The structure would be as follows: /789/texts/789-text-version.txt
+- The basic structure is
+  - Name of directory = ID-number
+  - In every ID-number-directory, two subdirectories are to be found: ID/texts & ID/annotations
+- The same structure follows with annotations: /789/annotations/789-annotation-version.txt
+
+
+** Structure of files:
+- For every given ID-number and their corresponding subdirectories, there will be the following files:
+  - /texts
+    - ID-human.txt
+      - A version designed for close reading - provided with references to the texts, whereby the reader can orient themselves in the text
+    - ID-joint.txt
+      - A version designed for analysis - a continuous string of Greek characters without digits or interfering signs. Punctuation is included however
+    - ID-fullstop.txt
+      - A version designed somewhat for literary analysis - the various versions of texts are supplied with punctuation from later editors and such; these are kept and leveraged to assist the NLP-model in regards to the context of a given sentence. Here, every line of text is simply a string of characters and whatever punctuation is included within the source document - and everytime a full stop (".") is encountered, the line is terminated with a "\n", and the next line begins with a new string.
+  - /annotations
+    - .csv - .csv ("," = integer) with three columns, header = 1) ID - matches a given token 2) TOKEN - given word within a text & 3) the various functions/attributes from the NLP-analysis.
+      - ID-lemma.csv
+        - Purpose: Identifies the lemma (base form for a given morpheme), ie. ἀπενίψατο --> ἀπονίπτω 
+      - ID-upos.csv
+        - Purpose: Maps words to their grammatical categories based on the Universal Dependencies (UD) framework. Assigns tags like NOUN, VERB, ADJ, ADV, PRON.
+      - 789-ner.csv
+        - Purpose: Identifies and categorizes named entities within the text. Recognizes entities such as PERSON among others.
+      - 789-stop.csv
+        - Purpose: Flags stop words (common words with low contextual meaning) to improve text processing efficiency.
+      - 789-dot.csv
+        - Simply identifies punctuation - not limited to only full stops, but also the raised dot (typically used as a (semi-)colon in modern punctuation - ·). Nifty for adding context in sentence segmentation.
