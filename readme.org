@@ -19,7 +19,7 @@ For more information about our methodology and approach in handling the various 
   - /texts
     - ID-human.txt
       - A version designed for close reading - provided with references to the texts, whereby the reader can orient themselves in the text
-    - ID-joint.txt
+    - ID-joined.txt
       - A version designed for analysis - a continuous string of Greek characters without digits or interfering signs. Punctuation is included however
     - ID-fullstop.txt
       - A version designed somewhat for literary analysis - the various versions of texts are supplied with punctuation from later editors and such; these are kept and leveraged to assist the NLP-model in regards to the context of a given sentence. Here, every line of text is simply a string of characters and whatever punctuation is included within the source document - and everytime a full stop (".") is encountered, the line is terminated with a "\n", and the next line begins with a new string.
@@ -35,3 +35,4 @@ For more information about our methodology and approach in handling the various 
         - Purpose: Flags stop words (common words with low contextual meaning) to improve text processing efficiency.
       - 789-dot.csv
         - Simply identifies punctuation - not limited to only full stops, but also the raised dot (typically used as a (semi-)colon in modern punctuation - ·/·). Nifty for adding context in sentence segmentation.
+    - .conllu - as per [[https://universaldependencies.org/format.html#morphological-annotation][the guideline from Universal Dependencies]], a file, in which various NLP data is aggregated, suitable to corrections, which can then be used for training models.
