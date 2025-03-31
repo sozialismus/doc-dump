@@ -29,10 +29,10 @@ For more information about our methodology and approach in handling the various 
         - Purpose: Identifies the lemma (base form for a given morpheme), ie. ἀπενίψατο --> ἀπονίπτω
       - ID-upos.csv
         - Purpose: Maps words to their grammatical categories based on the Universal Dependencies (UD) framework. Assigns tags like NOUN, VERB, ADJ, ADV, PRON.
-      - 789-ner.csv
+      - ID-ner.csv
         - Purpose: Identifies and categorizes named entities within the text. Recognizes entities such as PERSON among others.
-      - 789-stop.csv
+      - ID-stop.csv
         - Purpose: Flags stop words (common words with low contextual meaning) to improve text processing efficiency.
-      - 789-dot.csv
+      - ID-dot.csv
         - Simply identifies punctuation - not limited to only full stops, but also the raised dot (typically used as a (semi-)colon in modern punctuation - ·/·). Nifty for adding context in sentence segmentation.
-    - .conllu - as per [[https://universaldependencies.org/format.html#morphological-annotation][the guideline from Universal Dependencies]], a file, in which various NLP data is aggregated, suitable to corrections, which can then be used for training models.
+    - ID.conllu - as per [[https://universaldependencies.org/format.html#morphological-annotation][the guideline from Universal Dependencies]], a file, in which various NLP data is aggregated, suitable to corrections, which can then be used for training models.
