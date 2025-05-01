@@ -1,0 +1,25 @@
+# newdoc id = 2202
+
+# sent_id = 2202-1
+# text = äü.
+1	äü.	äü.	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2202-2
+# text = ὁ γὰρ διὰ τῶν ποιημάτων καὶ καταλογάδην συγγραμμάτων ᾀδόμενος Ζεὺς τὴν ἔννοιαν ἐπὶ τὸν θεὸν ἀναφέρει.
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+2	γὰρ	γάρ	ADV	Df	_	16	discourse	_	_
+3	διὰ	διά	ADP	R-	_	5	case	_	_
+4	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	5	det	_	_
+5	ποιημάτων	ποίημα	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+6	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+7	καταλογάδην	καταλογάδην	ADV	Df	Degree=Pos	8	amod	_	_
+8	συγγραμμάτων	σύγγραμμα	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	5	conj	_	_
+9	ᾀδόμενος	ᾀδόμενος	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	16	advcl	_	_
+10	Ζεὺς	Ζεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	NER=GOD
+11	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	ἔννοιαν	ἔννοια	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+13	ἐπὶ	ἐπί	ADP	R-	_	15	case	_	_
+14	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	θεὸν	θεός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+16	ἀναφέρει	ἀναφέρω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+17	.	.	PUNCT	Z	_	16	punct	_	_

@@ -1,0 +1,564 @@
+# newdoc id = 1560
+
+# sent_id = 1560-1
+# text = ΑΝΩΝΥΜΟΥ ΑΝΑΜΕΤΡΗΣΙΣ ΤΗΣ ΟΙΚΟΥΜΕΝΗΣ ΗΑΣ ΗΕ ΚΑΤΑ ΣΥΝΟΨΙΝ
+1	ΑΝΩΝΥΜΟΥ	ΑΝΩΝΥΜΟΥ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	NER=NORP
+2	ΑΝΑΜΕΤΡΗΣΙΣ	ΑΝΑΜΕΤΡΗΣΙΣ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
+3	ΤΗΣ	ΤΗΣ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	ΟΙΚΟΥΜΕΝΗΣ	ΟΙΚΟΥΜΕΝΗΣ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	ΗΑΣ	ΗΑΣ	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	NER=NORP
+6	ΗΕ	ΗΕ	ADV	Df	_	2	dep	_	_
+7	ΚΑΤΑ	ΚΑΤΑ	ADP	R-	_	8	case	_	_
+8	ΣΥΝΟΨΙΝ	ΣΥΝΟΨΙΝ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+
+# sent_id = 1560-2
+# text = .
+1	.	.	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 1560-3
+# text = Χρὴ γινώσκειν ὅτι πάσης τῆς γῆς ὁ περίμετρος.
+1	Χρὴ	χρή	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	γινώσκειν	γιγνώσκω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	ccomp	_	_
+3	ὅτι	ὅτι	SCONJ	G-	_	8	mark	_	_
+4	πάσης	πᾶς	DET	Px	Case=Gen|Gender=Fem|Number=Sing	6	det	_	_
+5	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	γῆς	γῆ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+7	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	περίμετρος	περίμετρος	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-4
+# text = στάδιά ἐστι δισχίλια καὶ μυριάδες εἴκοσι πέντε·
+1	στάδιά	στάδιος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+2	ἐστι	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	δισχίλια	δισχίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+4	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+5	μυριάδες	μυριάς	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	3	conj	_	_
+6	εἴκοσι	εἴκοσι	NUM	Ma	_	5	nummod	_	_
+7	πέντε	πέντε	NUM	Ma	_	5	nummod	_	SpaceAfter=No
+8	·	·	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 1560-5
+# text = μῆκος δὲ τῆς ἡμετέρας οἰκουμένης ἀπὸ στόματος Γάγγου ἕως Γαδείρων στάδια ὀκτακισμύρια τρισχίλια ὀκ τακόσια·
+1	μῆκος	μῆκος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+2	δὲ	δέ	ADV	Df	_	11	discourse	_	_
+3	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+4	ἡμετέρας	ἡμέτερος	ADJ	Ps	Case=Gen|Gender=Fem|Number=Sing|Person=1|Poss=Yes	5	nmod	_	_
+5	οἰκουμένης	οἰκουμένη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+6	ἀπὸ	ἀπό	ADP	R-	_	7	case	_	_
+7	στόματος	στόμα	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+8	Γάγγου	Γάγγης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NER=LOC
+9	ἕως	ἕως	ADP	R-	_	10	case	_	_
+10	Γαδείρων	Γάδειρα	PROPN	Ne	Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	NER=LOC
+11	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+12	ὀκτακισμύρια	ὀκτακισμύριον	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	11	nummod	_	_
+13	τρισχίλια	τρισχίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	12	fixed	_	_
+14	ὀκ	ὀκ	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	12	fixed	_	_
+15	τακόσια	τακόσιος	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	12	fixed	_	SpaceAfter=No
+16	·	·	PUNCT	Z	_	11	punct	_	_
+
+# sent_id = 1560-6
+# text = τὸ δὲ πλάτος ἀπὸ τῆς Αἰθιοπικῆς θαλάσσης ἕως τοῦ Τανάϊδος ποταμοῦ στάδια τρισμύρια πεντακισχίλια τὸ δὲ μεταξὺ Εὐφράτου καὶ Τίγριδος ποταμοῦ, ὃ καλεῖται Μεσοποτάμιον, διάστημα ἔχει σταδίων τρισχιλίων, Ταύτην τὴν ἀναμέτρησιν πεποίηκεν Ἐρατοσθένης ὁ τῶν ἀρχαίων μαθητικώτατος.
+1	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+2	δὲ	δέ	ADV	Df	_	12	discourse	_	_
+3	πλάτος	πλάτος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+4	ἀπὸ	ἀπό	ADP	R-	_	7	case	_	_
+5	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	Αἰθιοπικῆς	Αἰθιοπικός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	NER=NORP
+7	θαλάσσης	θάλασσα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+8	ἕως	ἕως	ADP	R-	_	10	case	_	_
+9	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	Τανάϊδος	Τάναϊς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NER=LOC
+11	ποταμοῦ	ποταμός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	10	appos	_	NER=LOC
+12	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	28	nsubj	_	_
+13	τρισμύρια	τρισμύριον	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	12	nummod	_	_
+14	πεντακισχίλια	πεντακισχίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	13	fixed	_	_
+15	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	18	det	_	_
+16	δὲ	δέ	ADV	Df	_	18	discourse	_	_
+17	μεταξὺ	μεταξύ	ADP	R-	_	18	case	_	_
+18	Εὐφράτου	Εὐφράτης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	12	dep	_	NER=LOC
+19	καὶ	καί	CCONJ	C-	_	18	cc	_	_
+20	Τίγριδος	Τίγρις	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	18	conj	_	NER=LOC
+21	ποταμοῦ	ποταμός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	20	appos	_	SpaceAfter=No
+22	,	,	PUNCT	Z	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	xcomp	_	_
+23	ὃ	ὁ	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	24	nsubj:pass	_	_
+24	καλεῖται	καλέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	acl	_	_
+25	Μεσοποτάμιον	Μεσοποτάμιος	ADJ	Ne	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	24	xcomp	_	NER=NORP|SpaceAfter=No
+26	,	,	PUNCT	Z	_	28	advmod	_	_
+27	διάστημα	διάστημα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	_
+28	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+29	σταδίων	στάδιον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	27	acl	_	_
+30	τρισχιλίων	τρισχίλιοι	NUM	Ma	Case=Gen|Gender=Neut|Number=Plur	29	nummod	_	SpaceAfter=No
+31	,	,	PUNCT	Z	_	28	dep	_	_
+32	Ταύτην	οὗτος	DET	Pd	Case=Acc|Gender=Fem|Number=Sing	34	det	_	_
+33	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	34	det	_	_
+34	ἀναμέτρησιν	ἀναμέτρησις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	35	obj	_	_
+35	πεποίηκεν	ποιέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	27	acl	_	_
+36	Ἐρατοσθένης	Ἐρατοσθένης	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	NER=PERSON
+37	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	40	det	_	_
+38	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	39	det	_	_
+39	ἀρχαίων	ἀρχαῖος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	40	nmod	_	_
+40	μαθητικώτατος	μαθητικώτας	ADJ	A-	Case=Nom|Degree=Sup|Gender=Masc|Number=Sing	36	appos	_	SpaceAfter=No
+41	.	.	PUNCT	Z	_	28	punct	_	_
+
+# sent_id = 1560-7
+# text = ΤΟΥ ΠΟΝΤΟΥ Ο ΠΕΡΙΜΕΤΡΟΣ.
+1	ΤΟΥ	ΤΟΥ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	ΠΟΝΤΟΥ	ΠΟΝΤΟΥ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=LOC
+3	Ο	Ο	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	ΠΕΡΙΜΕΤΡΟΣ	ΠΕΡΙΜΕΤΡΟΣ	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	SpaceAfter=No
+5	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = 1560-8
+# text = Ἀπὸ τοῦ Βυζαντίου εἰς τὸ Σωσθένιον στάδια ὀγδοήκοντα, μίλια δέκα καὶ ἥμισυ·
+1	Ἀπὸ	ἀπό	ADP	R-	_	3	case	_	_
+2	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Βυζαντίου	Βυζάντιον	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	NER=LOC
+4	εἰς	εἰς	ADP	R-	_	6	case	_	_
+5	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	Σωσθένιον	Σωσθένιον	PROPN	Ne	Case=Acc|Gender=Neut|Number=Sing	7	orphan	_	NER=LOC
+7	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+8	ὀγδοήκοντα	ὀγδοήκοντα	NUM	Ma	_	7	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	7	nummod	_	_
+10	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	7	conj	_	_
+11	δέκα	δέκα	NUM	Ma	_	10	nummod	_	_
+12	καὶ	καί	CCONJ	C-	_	10	cc	_	_
+13	ἥμισυ	ἥμισυς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
+14	·	·	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = 1560-9
+# text = ἀπὸ δὲ τοῦ Σωσθενίου εἰς τὸ Ἱερὸν στάδια τεσσαράκοντα,
+1	ἀπὸ	ἀπό	ADP	R-	_	8	dep	_	_
+2	δὲ	δέ	ADV	Df	_	8	discourse	_	_
+3	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	Σωσθενίου	Σωσθενίας	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NER=LOC
+5	εἰς	εἰς	ADP	R-	_	7	case	_	_
+6	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	Ἱερὸν	Ἱερόν	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+8	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+9	τεσσαράκοντα	τεσσαράκοντα	NUM	Ma	_	8	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = 1560-10
+# text = μίλια πέντε ἥμισυ·
+1	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	πέντε	πέντε	NUM	Ma	_	1	nummod	_	_
+3	ἥμισυ	ἥμισυς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	SpaceAfter=No
+4	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-11
+# text = τὸ πᾶν μίλια δεκαέξ.
+1	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	πᾶν	πᾶς	ADJ	Px	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+4	δεκαέξ	δεκαέξ	NUM	Ma	_	3	nummod	_	SpaceAfter=No
+5	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 1560-12
+# text = Ἀπὸ δὲ τοῦ Ἱεροῦ Διὸς Οὐρίου ἤτοι στόματος τοῦ Πόντου ἕως τοῦ ἱεροῦ στόματος τοῦ Ἴστρου ποταμοῦ στάδια τρισχίλια ἑξακόσια τεσσαράκοντα,
+1	Ἀπὸ	ἀπό	ADP	R-	_	4	case	_	_
+2	δὲ	δέ	ADV	Df	_	18	discourse	_	_
+3	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Ἱεροῦ	Ἱερόν	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	18	obl	_	_
+5	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=GOD
+6	Οὐρίου	Οὐρῖος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	appos	_	_
+7	ἤτοι	ἤτοι	CCONJ	C-	_	5	cc	_	_
+8	στόματος	στόμα	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	conj	_	NER=LOC
+9	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	10	det	_	NER=LOC
+10	Πόντου	Πόντος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	NER=LOC
+11	ἕως	ἕως	ADP	R-	_	13	case	_	NER=LOC
+12	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	13	det	_	_
+13	ἱεροῦ	ἱερόν	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	NER=LOC
+14	στόματος	στόμα	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	13	appos	_	NER=LOC
+15	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	Ἴστρου	Ἴστρος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	NER=LOC
+17	ποταμοῦ	ποταμός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	16	appos	_	_
+18	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+19	τρισχίλια	τρισχίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	18	nummod	_	_
+20	ἑξακόσια	ἑξακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	19	fixed	_	_
+21	τεσσαράκοντα	τεσσαράκοντα	NUM	Ma	_	19	fixed	_	SpaceAfter=No
+22	,	,	PUNCT	Z	_	18	punct	_	_
+
+# sent_id = 1560-13
+# text = μίλια τετρακόσια ὀγδοήκοντα πέντε ἥμισυ.
+1	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	τετρακόσια	τετρακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	_
+3	ὀγδοήκοντα	ὀγδοήκοντα	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	2	fixed	_	_
+4	πέντε	πέντε	NUM	Ma	_	2	fixed	_	_
+5	ἥμισυ	ἥμισυς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-14
+# text = Ἀπὸ δὲ τοῦ Ἱεροῦ Διὸς Οὐρίου ἕως Βορυσθένους ποταμοῦ τοῦ καὶ Δανάπρεως καλουμένου στάδια πεντακισχίλια ἑξακόσια,
+1	Ἀπὸ	ἀπό	ADP	R-	_	4	case	_	_
+2	δὲ	δέ	ADV	Df	_	0	ROOT	_	_
+3	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Ἱεροῦ	Ἱερόν	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+5	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=GOD
+6	Οὐρίου	Οὐρῖος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	appos	_	_
+7	ἕως	ἕως	ADP	R-	_	8	case	_	_
+8	Βορυσθένους	Βορυσθένης	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=LOC
+9	ποταμοῦ	ποταμός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	8	appos	_	_
+10	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
+11	καὶ	καί	ADV	Df	_	12	advmod	_	_
+12	Δανάπρεως	Δανάπρεως	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	13	xcomp	_	NER=LOC
+13	καλουμένου	καλέω	VERB	V-	Case=Gen|Gender=Masc,Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	9	nmod	_	_
+14	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+15	πεντακισχίλια	πεντακισχίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	14	nummod	_	_
+16	ἑξακόσια	ἑξακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	15	fixed	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 1560-15
+# text = μίλια ἑπτακόσια τεσσαρακονταὲξ ἥμισυ.
+1	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	ἑπτακόσια	ἑπτακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	_
+3	τεσσαρακονταὲξ	τεσσαρακονταὲξ	NUM	Ma	_	1	nummod	_	_
+4	ἥμισυ	ἥμισυς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-16
+# text = Ἀπὸ δὲ τοῦ Ἱεροῦ Διὸς Οὐρίου ἕως Πορθμίας πόλεως, τῆς ἐν τέλει τῆς Εὐρώπης τῶν τοῦ Πόντου μερῶν τῆς ἐν τῷ στομίῳ τῆς Μαιώτιδος λίμνης ἤτοι Βοσπόρου τοῦ Κιμμερίου καλουμένου,
+1	Ἀπὸ	ἀπό	ADP	R-	_	4	case	_	_
+2	δὲ	δέ	ADV	Df	_	0	ROOT	_	_
+3	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Ἱεροῦ	Ἱερόν	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+5	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=GOD
+6	Οὐρίου	Οὐρῖος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	ἕως	ἕως	ADP	R-	_	8	case	_	_
+8	Πορθμίας	Πορθμίας	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	NER=LOC
+9	πόλεως	πόλις	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	2	obl	_	_
+11	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+12	ἐν	ἐν	ADP	R-	_	13	case	_	_
+13	τέλει	τέλος	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	10	appos	_	_
+14	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	Εὐρώπης	Εὐρώπη	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	NER=LOC
+16	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	19	det	_	_
+17	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	Πόντου	Πόντος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	NER=LOC
+19	μερῶν	μέρος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	NER=LOC
+20	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	23	det	_	_
+21	ἐν	ἐν	ADP	R-	_	23	case	_	_
+22	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	23	det	_	_
+23	στομίῳ	στομίον	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	19	nmod	_	NER=LOC
+24	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
+25	Μαιώτιδος	Μαιώτης	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	NER=LOC
+26	λίμνης	λίμνη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	25	appos	_	_
+27	ἤτοι	ἤτοι	CCONJ	C-	_	25	cc	_	_
+28	Βοσπόρου	Βόσπορος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	25	conj	_	NER=LOC
+29	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	30	det	_	_
+30	Κιμμερίου	Κιμμερῖος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	31	xcomp	_	NER=NORP
+31	καλουμένου	καλέω	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	23	acl	_	SpaceAfter=No
+32	,	,	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 1560-17
+# text = στάδια μύρια χίλια ἑκατόν, μίλια χίλια τετρακόσια ὀγδοήκοντα.
+1	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	μύρια	μύρια	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	_
+3	χίλια	χίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	_
+4	ἑκατόν	ἑκατόν	NUM	Ma	_	1	nummod	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	1	dislocated	_	_
+6	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	1	conj	_	_
+7	χίλια	χίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	6	nummod	_	_
+8	τετρακόσια	τετρακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	6	nummod	_	_
+9	ὀγδοήκοντα	ὀγδοήκοντα	NUM	Ma	_	6	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-18
+# text = Λέγεται δὲ τῆς Εὐρώπης τῆς Ποντικῆς ὁ περίπλους ἴσος εἶναι τῶ περίπλῳ τῶν τῆς Ἀσίας μερῶν.
+1	Λέγεται	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	ROOT	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	Εὐρώπης	Εὐρώπη	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	NER=LOC
+5	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Ποντικῆς	Ποντικός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	nmod	_	NER=NORP
+7	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	περίπλους	περίπλοος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	ἴσος	ἴσος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	csubj:pass	_	_
+10	εἶναι	εἰμί	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	9	cop	_	_
+11	τῶ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	12	det	_	_
+12	περίπλῳ	περίπλος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	_
+13	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	16	det	_	_
+14	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	Ἀσίας	Ἀσία	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	NER=LOC
+16	μερῶν	μέρος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-19
+# text = Ἀπὸ δὲ τοῦ Ἱεροῦ Διὸς Οὐρίου ἕως Ἀμισοῦ στάδια τετρακισχίλια ἑξακόσια ἐξήκοντα,
+1	Ἀπὸ	ἀπό	ADP	R-	_	4	case	_	_
+2	δὲ	δέ	ADV	Df	_	9	discourse	_	_
+3	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Ἱεροῦ	Ἱερόν	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	9	obl	_	_
+5	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=GOD
+6	Οὐρίου	Οὐρῖος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	appos	_	_
+7	ἕως	ἕως	ADP	R-	_	8	case	_	_
+8	Ἀμισοῦ	Ἀμισός	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	NER=LOC
+9	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+10	τετρακισχίλια	τετρακισχίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	9	nummod	_	_
+11	ἑξακόσια	ἑξακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	9	nummod	_	_
+12	ἐξήκοντα	ἐξήκω	NUM	Ma	_	9	fixed	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = 1560-20
+# text = μίλια ἑξακόσια εἰκοσιὲν ἥμισυ.
+1	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	ἑξακόσια	ἑξακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	_
+3	εἰκοσιὲν	εἰκοσιὲν	NUM	Ma	_	1	nummod	_	_
+4	ἥμισυ	ἥμισυς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-21
+# text = Ἀπὸ δὲ Ἀμισοῦ ἕως τοῦ Φάσεως ποταμοῦ στάδια τρισχίλια ὀκτακόσια δύο,
+1	Ἀπὸ	ἀπό	ADP	R-	_	3	case	_	_
+2	δὲ	δέ	ADV	Df	_	8	discourse	_	_
+3	Ἀμισοῦ	Ἀμισός	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	8	obl	_	NER=LOC
+4	ἕως	ἕως	ADP	R-	_	6	case	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Φάσεως	Φάσεως	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	NER=LOC
+7	ποταμοῦ	ποταμός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	6	appos	_	_
+8	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+9	τρισχίλια	τρισχίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	8	nummod	_	_
+10	ὀκτακόσια	ὀκτακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	8	nummod	_	_
+11	δύο	δύο	NUM	Ma	_	8	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = 1560-22
+# text = μίλια πεντακόσια ἑπτά.
+1	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	πεντακόσια	πεντακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	_
+3	ἑπτά	ἑπτά	NUM	Ma	_	1	nummod	_	SpaceAfter=No
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-23
+# text = Ἀπὸ δὲ τοῦ Φάσεως ποταμοῦ ἕως τοῦ στόματος τῆς Μαιώτιδος λίμνης ἤτοι ἕως τῆς Ἀχιλλείου κώμης στάδια τετρακισχίλια εἴκοσι πέντε,
+1	Ἀπὸ	ἀπό	ADP	R-	_	8	case	_	_
+2	δὲ	δέ	ADV	Df	_	17	discourse	_	_
+3	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Φάσεως	Φάσεως	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	NER=LOC
+5	ποταμοῦ	ποταμός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	appos	_	_
+6	ἕως	ἕως	ADP	R-	_	8	case	_	_
+7	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	8	det	_	_
+8	στόματος	στόμα	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	17	obl	_	NER=LOC
+9	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	NER=LOC
+10	Μαιώτιδος	Μαιώτης	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	NER=LOC
+11	λίμνης	λίμνη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	10	appos	_	NER=LOC
+12	ἤτοι	ἤτοι	CCONJ	C-	_	8	cc	_	_
+13	ἕως	ἕως	ADP	R-	_	16	case	_	_
+14	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	16	det	_	_
+15	Ἀχιλλείου	Ἀχιλλεῖος	ADJ	A-	Case=Gen|Degree=Pos|Number=Sing	16	amod	_	NER=LOC
+16	κώμης	κώμη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	NER=LOC
+17	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+18	τετρακισχίλια	τετρακισχίλιον	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	17	nummod	_	_
+19	εἴκοσι	εἴκοσι	NUM	Ma	_	18	fixed	_	_
+20	πέντε	πέντε	NUM	Ma	_	18	fixed	_	SpaceAfter=No
+21	,	,	PUNCT	Z	_	17	appos	_	_
+
+# sent_id = 1560-24
+# text = μίλια πεντακόσια τριακονταὲξ ἥμισυ, ὡς γίνεσθαι ἀπὸ τοῦ Ἱεροῦ Διὸς Οὐρίου ἕως τοῦ στόματος τῆς Μαιώτιδος λίμνης στάδια μύρια δισ χίλια τετρακόσια ὀγδοήκοντα ἑπτὰ
+1	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	πεντακόσια	πεντακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	_
+3	τριακονταὲξ	τριακονταὲξ	NUM	Ma	_	1	nummod	_	_
+4	ἥμισυ	ἥμισυς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	1	dep	_	_
+6	ὡς	ὡς	ADV	Dq	PronType=Rel	7	advmod	_	_
+7	γίνεσθαι	γίγνομαι	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Mid	1	advcl	_	_
+8	ἀπὸ	ἀπό	ADP	R-	_	10	case	_	_
+9	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+10	Ἱεροῦ	Ἱερόν	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+11	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	NER=GOD
+12	Οὐρίου	Οὐρῖος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	11	appos	_	_
+13	ἕως	ἕως	ADP	R-	_	15	case	_	_
+14	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	15	det	_	_
+15	στόματος	στόμα	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+16	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	Μαιώτιδος	Μαιώτης	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	NER=LOC
+18	λίμνης	λίμνη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+19	στάδια	στάδιον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	7	nsubj	_	_
+20	μύρια	μύρια	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	19	nummod	_	_
+21	δισ	δισ	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	19	nummod	_	_
+22	χίλια	χίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+23	τετρακόσια	τετρακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+24	ὀγδοήκοντα	ὀγδοήκοντα	NUM	Ma	_	7	fixed	_	_
+25	ἑπτὰ	ἑπτά	NUM	Ma	_	7	fixed	_	SpaceAfter=No
+
+# sent_id = 1560-25
+# text = , μίλια χίλια ἑξακόσια ἐξήκοντα πέντε ἥμισυ. Ὁμοῦ γίνεται ὁ περίπλους τοῦ Εὐξείνου Πόντου, τῶν τε δεξιῶν τῶν τε παρὰ τὴν Ἀσίαν μερῶν τοῦ Πόντου,
+1	,	,	PUNCT	Z	_	10	advmod	_	_
+2	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	_
+3	χίλια	χίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	2	nummod	_	_
+4	ἑξακόσια	ἑξακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	3	fixed	_	_
+5	ἐξήκοντα	ἐξήκω	NUM	Ma	_	3	fixed	_	_
+6	πέντε	πέντε	NUM	Ma	_	3	fixed	_	_
+7	ἥμισυ	ἥμισυς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	appos	_	SpaceAfter=No
+8	.	.	PUNCT	Z	_	2	punct	_	_
+9	Ὁμοῦ	Ὁμοῦ	ADV	Df	_	10	advmod	_	_
+10	γίνεται	γίγνομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+11	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	περίπλους	περίπλοος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	Εὐξείνου	εὔξενος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	NER=LOC
+15	Πόντου	Πόντος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	NER=LOC|SpaceAfter=No
+16	,	,	PUNCT	Z	_	10	advmod	_	_
+17	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	19	det	_	_
+18	τε	τε	CCONJ	C-	_	19	cc	_	_
+19	δεξιῶν	δεξιός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	2	nmod	_	_
+20	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	19	dep	_	_
+21	τε	τε	CCONJ	C-	_	19	cc	_	_
+22	παρὰ	παρά	ADP	R-	_	24	case	_	_
+23	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	24	det	_	_
+24	Ἀσίαν	Ἀσία	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	25	nmod	_	NER=LOC
+25	μερῶν	μέρος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	19	conj	_	_
+26	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	27	det	_	_
+27	Πόντου	Πόντος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	NER=LOC|SpaceAfter=No
+28	,	,	PUNCT	Z	_	10	cc	_	_
+
+# sent_id = 1560-26
+# text = ἀριστερῶν δὲ τῶν παρὰ τὴν Εὐρώπην μερῶν τοῦ Πόντου
+1	ἀριστερῶν	ἀριστερέω	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	7	det	_	_
+4	παρὰ	παρά	ADP	R-	_	6	case	_	_
+5	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Εὐρώπην	Εὐρώπη	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	NER=LOC
+7	μερῶν	μέρος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
+8	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	Πόντου	Πόντος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NER=LOC|SpaceAfter=No
+
+# sent_id = 1560-27
+# text = , ἀπὸ τοῦ Ἱεροῦ Διὸς Οὐρίου
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+2	ἀπὸ	ἀπό	ADP	R-	_	4	case	_	_
+3	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	Ἱεροῦ	Ἱερόν	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+5	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	NER=GOD
+6	Οὐρίου	Οὐρῖος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+
+# sent_id = 1560-28
+# text = , στάδια δισμύρια τρισχίλια πεντακόσια ὀγδοήκοντα ἑπτὰ, μίλια τρισχίλια ἑκατὸν τεσσαράκοντα πέντε. Ἔστι δὲ καὶ ὁ περίπλους τῆς Μαιώτιδος λίμνης στάδια ἐννακισχίλια.
+1	,	,	PUNCT	Z	_	9	nmod	_	_
+2	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+3	δισμύρια	δισμύριοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	2	nummod	_	_
+4	τρισχίλια	τρισχίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	3	fixed	_	_
+5	πεντακόσια	πεντακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	3	fixed	_	_
+6	ὀγδοήκοντα	ὀγδοήκοντα	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	3	fixed	_	_
+7	ἑπτὰ	ἑπτά	NUM	Ma	_	3	fixed	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	2	punct	_	_
+9	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	23	nsubj	_	_
+10	τρισχίλια	τρισχίλια	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	9	nummod	_	_
+11	ἑκατὸν	ἑκατόν	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	9	nummod	_	_
+12	τεσσαράκοντα	τεσσαράκοντα	NUM	Ma	_	9	fixed	_	_
+13	πέντε	πέντε	NUM	Ma	_	9	fixed	_	SpaceAfter=No
+14	.	.	PUNCT	Z	_	9	punct	_	_
+15	Ἔστι	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	cop	_	_
+16	δὲ	δέ	ADV	Df	_	23	discourse	_	_
+17	καὶ	καί	ADV	Df	_	23	advmod	_	_
+18	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	περίπλους	περίπλοος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+20	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+21	Μαιώτιδος	Μαιώτης	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	NER=LOC
+22	λίμνης	λίμνη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	NER=LOC
+23	στάδια	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+24	ἐννακισχίλια	ἐννακισχίλιος	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	23	nummod	_	SpaceAfter=No
+25	.	.	PUNCT	Z	_	23	punct	_	_
+
+# sent_id = 1560-29
+# text = μίλια χίλια διακόσια.
+1	μίλια	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	χίλια	χίλιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	_
+3	διακόσια	διακόσιοι	NUM	Ma	Case=Nom|Gender=Neut|Number=Plur	1	nummod	_	SpaceAfter=No
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-30
+# text = Περὶ τοῦ σταδίου.
+1	Περὶ	περί	ADP	R-	_	3	case	_	_
+2	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	σταδίου	στάδιον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	0	ROOT	_	SpaceAfter=No
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 1560-31
+# text = Τὸ στάδιον πήχεις ἔχει τετρακοσίους,
+1	Τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	στάδιον	στάδιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	πήχεις	πῆχυς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+4	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	τετρακοσίους	τετρακόσιοι	NUM	Ma	Case=Acc|Gender=Masc|Number=Plur	4	dep	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	3	acl	_	_
+
+# sent_id = 1560-32
+# text = πόδας ὀκτακοσίους
+1	πόδας	πούς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ὀκτακοσίους	ὀκτακόσιοι	NUM	Ma	Case=Acc|Gender=Masc|Number=Plur	1	nummod	_	SpaceAfter=No
+
+# sent_id = 1560-33
+# text = ,
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 1560-34
+# text = ὀργυιὰς ἑκατὸν τριάκοντα τρεῖς ἥμισυ.
+1	ὀργυιὰς	ὀργυιά	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
+2	ἑκατὸν	ἑκατόν	NUM	Ma	_	1	nummod	_	_
+3	τριάκοντα	τριάκοντα	NUM	Ma	_	2	fixed	_	_
+4	τρεῖς	τρεῖς	NUM	Ma	Case=Acc|Gender=Fem,Masc|Number=Plur	2	fixed	_	_
+5	ἥμισυ	ἥμισυς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-35
+# text = Περὶ τοῦ μιλίου.
+1	Περὶ	περί	ADP	R-	_	3	case	_	_
+2	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	μιλίου	μιλῖον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	0	ROOT	_	NER=LOC|SpaceAfter=No
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 1560-36
+# text = Τὸ μίλιον ἔχει στάδια ἑπτὰ ἥμισυ,
+1	Τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	μίλιον	μίλιον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	NER=LOC
+3	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	στάδια	στάδιον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	ἑπτὰ	ἑπτά	NUM	Ma	_	4	nummod	_	_
+6	ἥμισυ	ἥμισυς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 1560-37
+# text = πήχεις τρισχιλίους
+1	πήχεις	πῆχυς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	τρισχιλίους	τρισχίλιοι	NUM	Ma	Case=Acc|Gender=Masc|Number=Plur	1	nummod	_	SpaceAfter=No
+
+# sent_id = 1560-38
+# text = ,
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 1560-39
+# text = πόδας ἑξακισχιλίους.
+1	πόδας	πούς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	_
+2	ἑξακισχιλίους	ἑξακισχίλιοι	NUM	Ma	Case=Acc|Gender=Masc|Number=Plur	1	nummod	_	SpaceAfter=No
+3	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1560-40
+# text = Περὶ τοῦ ἐνιαυτοῦ.
+1	Περὶ	περί	ADP	R-	_	3	case	_	_
+2	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	ἐνιαυτοῦ	ἐνιαυτός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 1560-41
+# text = Ἅπας ἔχει ὥρας ὀκτακισχιλίας ἑπτακοσίας ἐξήκοντα ἓξ,
+1	Ἅπας	Ἅπας	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	ὥρας	ὥρα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	ὀκτακισχιλίας	ὀκτακισχιλία	NUM	Ma	Case=Acc|Gender=Fem|Number=Plur	3	nummod	_	_
+5	ἑπτακοσίας	ἑπτακόσιοι	NUM	Ma	Case=Acc|Gender=Fem|Number=Plur	3	nummod	_	_
+6	ἐξήκοντα	ἐξήκω	NUM	Ma	Case=Acc|Gender=Fem|Number=Plur	3	nummod	_	_
+7	ἓξ	ἕξ	NUM	Ma	_	3	nummod	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 1560-42
+# text = ἡμέρας τριακοσίας ἑξήκοντα πέντε καὶ τέταρτον.
+1	ἡμέρας	ἡμέρα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	_
+2	τριακοσίας	τριακόσιοι	NUM	Ma	Case=Acc|Gender=Fem|Number=Plur	1	nummod	_	_
+3	ἑξήκοντα	ἑξήκοντα	NUM	Ma	Case=Acc|Gender=Fem|Number=Plur	2	fixed	_	_
+4	πέντε	πέντε	NUM	Ma	_	2	fixed	_	_
+5	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+6	τέταρτον	τέταρτος	ADJ	Mo	Case=Acc|Gender=Neut|Number=Sing	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	Z	_	1	punct	_	_

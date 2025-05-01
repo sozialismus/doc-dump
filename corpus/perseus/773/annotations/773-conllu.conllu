@@ -1,0 +1,75 @@
+# newdoc id = 773
+
+# sent_id = 773-1
+# text = Εἲς Ἑστίαν ἑστίη,
+1	Εἲς	Εἲς	ADP	R-	_	2	case	_	_
+2	Ἑστίαν	Ἑστία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+3	ἑστίη	ἑστίη	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+4	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	3	punct	_	_
+
+# sent_id = 773-2
+# text = ἥτε
+1	ἥτε	ὅστε	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	0	ROOT	_	_
+
+# sent_id = 773-3
+# text = ἄνακτος
+1	ἄνακτος	ἄναξ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+# sent_id = 773-4
+# text = Ἀπόλλωνος
+1	Ἀπόλλωνος	Ἀπόλλων	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	NER=GOD
+
+# sent_id = 773-5
+# text = ἑκάτοιο
+1	ἑκάτοιο	ἕκατος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+# sent_id = 773-6
+# text = Πυθοῖ ἐν ἠγαθέῃ ἱερὸν δόμον ἀμφιπολεύεις
+1	Πυθοῖ	Πυθώ	PROPN	Ne	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	NER=LOC
+2	ἐν	ἐν	ADP	R-	_	3	case	_	_
+3	ἠγαθέῃ	ἠγάθεος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	obl	_	NER=LOC
+4	ἱερὸν	ἱερόν	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	5	amod	_	_
+5	δόμον	δόμος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+6	ἀμφιπολεύεις	ἀμφιπολεύω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 773-7
+# text = , αἰεὶ σῶν πλοκάμων ἀπολείβεται ὑγρὸν ἔλαιον
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+2	αἰεὶ	ἀεί	ADV	Df	_	5	advmod	_	_
+3	σῶν	σός	ADJ	Ps	Case=Gen|Gender=Masc|Number=Plur|Person=2|Poss=Yes	4	nmod	_	_
+4	πλοκάμων	πλόκαμος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+5	ἀπολείβεται	ἀπολείβω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	1	conj	_	_
+6	ὑγρὸν	ὑγρός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	ἔλαιον	ἔλαιον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	SpaceAfter=No
+
+# sent_id = 773-8
+# text = ·
+1	·	·	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 773-9
+# text = ἔρχεο τόνδʼ ἀνὰ οἶκον,
+1	ἔρχεο	ἔρχομαι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+2	τόνδʼ	ὅδε	DET	Pd	Case=Acc|Gender=Masc|Number=Sing	1	det	_	_
+3	ἀνὰ	ἀνά	ADP	R-	_	4	case	_	_
+4	οἶκον	οἶκος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 773-10
+# text = ἕνʼ ἔρχεο θυμὸν ἔχουσα σὺν Διὶ μητιόεντι·
+1	ἕνʼ	εἷς	ADP	R-	_	2	obl	_	_
+2	ἔρχεο	ἔρχομαι	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+3	θυμὸν	θυμός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+4	ἔχουσα	ἔχω	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	advcl	_	_
+5	σὺν	σύν	ADP	R-	_	6	case	_	_
+6	Διὶ	Ζεύς	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	NER=GOD
+7	μητιόεντι	μητιόεις	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	·	·	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 773-11
+# text = χάριν δʼ ἅμʼ ὄπασσον ἀοιδῇ.
+1	χάριν	χάρις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+2	δʼ	δέ	ADV	Df	_	4	discourse	_	_
+3	ἅμʼ	ἅμα	ADV	Df	_	4	dep	_	_
+4	ὄπασσον	ὀπάζω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	ἀοιδῇ	ἀοιδή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+6	.	.	PUNCT	Z	_	4	punct	_	_

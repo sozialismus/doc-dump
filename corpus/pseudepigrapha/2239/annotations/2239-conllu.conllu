@@ -1,0 +1,68 @@
+# newdoc id = 2239
+
+# sent_id = 2239-1
+# text = τὸν δὲ θεὸν αὐτοῖς τοῦτον τὸν νοῦν ἐμβαλεῖν διὰ τὸ τοὺς ἐν Σικίμοις ἀσεβεῖς εἶναι.
+1	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	δὲ	δέ	ADV	Df	_	8	discourse	_	_
+3	θεὸν	θεός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	αὐτοῖς	αὐτός	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	iobj	_	_
+5	τοῦτον	οὗτος	DET	Pd	Case=Acc|Gender=Masc|Number=Sing	7	det	_	_
+6	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	νοῦν	νόος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	ἐμβαλεῖν	ἐμβάλλω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	0	ROOT	_	_
+9	διὰ	διά	ADP	R-	_	14	case	_	_
+10	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
+11	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	13	det	_	_
+12	ἐν	ἐν	ADP	R-	_	13	case	_	_
+13	Σικίμοις	Σικῖμος	PROPN	Ne	Case=Dat|Gender=Neut|Number=Plur	14	nsubj	_	NER=LOC
+14	ἀσεβεῖς	ἀσεβής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	advcl	_	_
+15	εἶναι	εἰμί	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	14	cop	_	SpaceAfter=No
+16	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = 2239-2
+# text = φησὶ δέ· Βλάπτε θεὸς Σικίμων οἰκήτορας,
+1	φησὶ	φημί	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δέ	δέ	ADV	Df	_	1	discourse	_	SpaceAfter=No
+3	·	·	PUNCT	Z	_	1	ccomp	_	_
+4	Βλάπτε	Βλάπτε	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+5	θεὸς	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	Σικίμων	Σικίμων	NOUN	Ne	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	NER=NORP
+7	οἰκήτορας	οἰκήτωρ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+8	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	1	punct	_	_
+
+# sent_id = 2239-3
+# text = οὐ γὰρ ἔτιον εἰς αὐτοὺς ὅστις κε μόλῃ κακὸς οὐδὲ μὲν ἐσθλός·
+1	οὐ	οὐ	ADV	Df	Polarity=Neg	3	advmod	_	_
+2	γὰρ	γάρ	ADV	Df	_	3	discourse	_	_
+3	ἔτιον	ἔτιος	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	εἰς	εἰς	ADP	R-	_	5	case	_	_
+5	αὐτοὺς	αὐτός	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	obl	_	_
+6	ὅστις	ὅστις	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	8	nsubj	_	_
+7	κε	ἄν	ADV	Df	_	8	advmod	_	_
+8	μόλῃ	βλώσκω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
+9	κακὸς	κακός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+10	οὐδὲ	οὐδέ	CCONJ	C-	_	9	cc	_	_
+11	μὲν	μέν	ADV	Df	_	12	discourse	_	_
+12	ἐσθλός	ἐσθλός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	·	·	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 2239-4
+# text = οὐδὲ δίκας ἐδίκαζον ἀνὰ πτόλιν οὐδὲ θέμιστας·
+1	οὐδὲ	οὐδέ	CCONJ	C-	_	3	cc	_	_
+2	δίκας	δίκη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+3	ἐδίκαζον	δικάζω	VERB	V-	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	ἀνὰ	ἀνά	ADP	R-	_	5	case	_	_
+5	πτόλιν	πόλις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+6	οὐδὲ	οὐδέ	CCONJ	C-	_	2	cc	_	_
+7	θέμιστας	θέμις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+8	·	·	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 2239-5
+# text = λοίγια δ᾽ ὠρώρει τοῖσιν μεμελημένα ἔργα.
+1	λοίγια	λοίγιος	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	δ᾽	δ᾽	ADV	Df	_	3	discourse	_	_
+3	ὠρώρει	ὄρνυμι	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	τοῖσιν	ὁ	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|PronType=Rel	5	iobj	_	_
+5	μεμελημένα	μεμελημένα	VERB	V-	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+6	ἔργα	ἔργον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	Z	_	3	punct	_	_

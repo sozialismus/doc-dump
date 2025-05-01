@@ -1,0 +1,241 @@
+# newdoc id = 2210
+
+# sent_id = 2210-1
+# text = Ταῦτα μὲν δὴ ἀπὸ τῆς προειρημένης τοῦ Πολυΐστορος γραφῆς.
+1	Ταῦτα	οὗτος	ADJ	Pd	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	μὲν	μέν	ADV	Df	_	1	discourse	_	_
+3	δὴ	δή	ADV	Df	_	1	discourse	_	_
+4	ἀπὸ	ἀπό	ADP	R-	_	9	case	_	_
+5	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+6	προειρημένης	προαγορεύω	VERB	V-	Aspect=Perf|Case=Gen|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+7	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	Πολυΐστορος	Πολυΐστορος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	NER=PERSON
+9	γραφῆς	γραφή	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+10	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2210-2
+# text = καὶ ὁ Ἰώσηπος δὲ ἐν τῇ πρώτῃ τῆς Ἀρχαιολογίας τοῦ αὐτοῦ μνημονεύει διὰ τούτων·
+1	καὶ	καί	CCONJ	C-	_	12	cc	_	_
+2	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	Ἰώσηπος	Ἰώσηπος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	NER=PERSON
+4	δὲ	δέ	ADV	Df	_	12	discourse	_	_
+5	ἐν	ἐν	ADP	R-	_	7	case	_	_
+6	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	πρώτῃ	πρῶτος	ADJ	Mo	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+8	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	Ἀρχαιολογίας	Ἀρχαιολογία	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+10	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	det	_	_
+12	μνημονεύει	μνημονεύω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+13	διὰ	διά	ADP	R-	_	14	case	_	_
+14	τούτων	οὗτος	ADJ	Pd	Case=Gen|Gender=Neut|Number=Plur	12	obl	_	SpaceAfter=No
+15	·	·	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = 2210-3
+# text = Λέγεται δὲ ὡς οὗτος ὁ Ἀφρὴν στρατεύσας ἐπὶ τὴν Λιβύην κατέσχεν αὐτὴν καὶ οἱ υἱωνοὶ αὐτοῦ κατοικήσαντες ἐν αὐτῇ τὴν γῆν ἀπὸ τοῦ ἐκείνου ὀνόματος Ἀφρικὰ προσηγόρευσαν.
+1	Λέγεται	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	ROOT	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	ὡς	ὡς	SCONJ	G-	_	11	mark	_	_
+4	οὗτος	οὗτος	DET	Pd	Case=Nom|Gender=Masc|Number=Sing	6	det	_	_
+5	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Ἀφρὴν	Ἀφρήν	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	στρατεύσας	στρατεύω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	11	advcl	_	_
+8	ἐπὶ	ἐπί	ADP	R-	_	10	case	_	_
+9	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	Λιβύην	Λιβύη	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	NER=LOC
+11	κατέσχεν	κατέχω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	csubj:pass	_	_
+12	αὐτὴν	αὐτός	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	καὶ	καί	CCONJ	C-	_	11	cc	_	_
+14	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
+15	υἱωνοὶ	υἱωνός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	27	nsubj	_	_
+16	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	det	_	_
+17	κατοικήσαντες	κατοικέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	27	advcl	_	_
+18	ἐν	ἐν	ADP	R-	_	19	case	_	_
+19	αὐτῇ	αὐτός	PRON	Pp	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	obl	_	_
+20	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	21	det	_	_
+21	γῆν	γῆ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+22	ἀπὸ	ἀπό	ADP	R-	_	25	case	_	_
+23	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	25	det	_	_
+24	ἐκείνου	ἐκεῖνος	DET	Pd	Case=Gen|Gender=Neut|Number=Sing	25	det	_	_
+25	ὀνόματος	ὄνομα	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+26	Ἀφρικὰ	Ἀφρικός	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	27	xcomp	_	NER=ORG
+27	προσηγόρευσαν	προσαγορεύω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No
+28	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2210-4
+# text = μαρτυρεῖ δέ μου τῷ λόγῳ Ἀλέξανδρος ὁ Πολυΐστωρ λέγων οὕτως·
+1	μαρτυρεῖ	μαρτυρέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δέ	δέ	ADV	Df	_	1	discourse	_	_
+3	μου	ἐγώ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	det	_	_
+4	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	λόγῳ	λόγος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	_
+6	Ἀλέξανδρος	Ἀλέξανδρος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	NER=PERSON
+7	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	Πολυΐστωρ	Πολυΐστωρ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	appos	_	_
+9	λέγων	λέγω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	advcl	_	_
+10	οὕτως	οὕτως	ADV	Df	_	9	advmod	_	SpaceAfter=No
+11	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2210-5
+# text = Κλεόδημος δέ φησιν ὁ προφήτης, ὁ καὶ Μαλχᾶς,
+1	Κλεόδημος	Κλεόδημος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	NER=PERSON
+2	δέ	δέ	ADV	Df	_	3	discourse	_	_
+3	φησιν	φημί	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	προφήτης	προφήτης	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	dep	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	3	parataxis	_	_
+7	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+8	καὶ	καί	ADV	Df	_	9	advmod	_	_
+9	Μαλχᾶς	Μαλχή	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	6	nmod	_	NER=PERSON|SpaceAfter=No
+10	,	,	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 2210-6
+# text = ἱστορῶν τὰ περὶ Ἰουδαίων, καθὼς καὶ Μωσῆς ἱστόρηκεν ὁ νομοθέτης αὐτῶν, ὅτι ἐκ τῆς Χεττούρας Ἁβραάμῳ ἐγένοντο παῖδες ἱκανοί·
+1	ἱστορῶν	ἱστορέω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	ROOT	_	_
+2	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
+3	περὶ	περί	ADP	R-	_	4	case	_	_
+4	Ἰουδαίων	Ἰουδαῖος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	1	obj	_	NER=NORP|SpaceAfter=No
+5	,	,	PUNCT	Z	_	1	advmod	_	_
+6	καθὼς	καθώς	ADV	Dq	PronType=Rel	9	advmod	_	_
+7	καὶ	καί	ADV	Df	_	8	advmod	_	_
+8	Μωσῆς	Μωσῆς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	NER=PERSON
+9	ἱστόρηκεν	ἱστορέω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+10	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	νομοθέτης	νομοθέτης	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+12	αὐτῶν	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	det	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	1	dislocated	_	_
+14	ὅτι	ὅτι	SCONJ	G-	_	19	mark	_	_
+15	ἐκ	ἐκ	ADP	R-	_	17	case	_	_
+16	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	Χεττούρας	Χεττούρα	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	19	obl	_	NER=NORP
+18	Ἁβραάμῳ	Ἁβραάμῳ	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	19	iobj	_	NER=PERSON
+19	ἐγένοντο	γίγνομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	1	ccomp	_	_
+20	παῖδες	παῖς	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+21	ἱκανοί	ἱκανός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	20	amod	_	SpaceAfter=No
+22	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2210-7
+# text = λέγει δὲ αὐτῶν καὶ τὰ ὀνόματα,
+1	λέγει	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	αὐτῶν	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	det	_	_
+4	καὶ	καί	ADV	Df	_	6	advmod	_	_
+5	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	6	det	_	_
+6	ὀνόματα	ὄνομα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2210-8
+# text = ὀνομάζων τρεῖς, Ἀφέρ, Ἀσσουρί, Ἀφράν
+1	ὀνομάζων	ὀνομάζω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	ROOT	_	_
+2	τρεῖς	τρεῖς	NUM	Ma	Case=Acc|Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	2	acl	_	_
+4	Ἀφέρ	Ἀφέρ	PROPN	Ne	_	3	appos	_	NER=LOC|SpaceAfter=No
+5	,	,	PUNCT	Z	_	4	cc	_	_
+6	Ἀσσουρί	Ἀσσουρί	PROPN	Ne	_	4	conj	_	NER=NORP|SpaceAfter=No
+7	,	,	PUNCT	Z	_	4	cc	_	_
+8	Ἀφράν	Ἀφρά	PROPN	Ne	_	4	conj	_	NER=LOC|SpaceAfter=No
+
+# sent_id = 2210-9
+# text = ·
+1	·	·	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2210-10
+# text = καὶ ἀπὸ Ἀσσουρὶ μὲν τὴν Ἀσσυρίαν,
+1	καὶ	καί	CCONJ	C-	_	6	cc	_	_
+2	ἀπὸ	ἀπό	ADP	R-	_	3	case	_	_
+3	Ἀσσουρὶ	Ἀσσουρὶ	PROPN	Ne	_	6	orphan	_	NER=NORP
+4	μὲν	μέν	ADV	Df	_	3	discourse	_	_
+5	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Ἀσσυρίαν	Ἀσσυρίη	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	0	ROOT	_	NER=NORP|SpaceAfter=No
+7	,	,	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = 2210-11
+# text = ἀπὸ δὲ τῶν δύο, Ἀφρά τε καὶ Ἀφέρ,
+1	ἀπὸ	ἀπό	ADP	R-	_	6	case	_	_
+2	δὲ	δέ	ADV	Df	_	6	discourse	_	_
+3	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	δύο	δύο	NUM	Ma	_	6	orphan	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	6	det	_	_
+6	Ἀφρά	Ἀφράς	PROPN	Ne	_	0	ROOT	_	NER=ORG
+7	τε	τε	CCONJ	C-	_	6	cc	_	_
+8	καὶ	καί	CCONJ	C-	_	6	cc	_	_
+9	Ἀφέρ	Ἀφέρ	PROPN	Ne	_	6	conj	_	NER=LOC|SpaceAfter=No
+10	,	,	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = 2210-12
+# text = πόλιν τε Ἀφρὰν καὶ τὴν χώραν Ἀφρικὰ ὀνομασθῆναι
+1	πόλιν	πόλις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
+2	τε	τε	CCONJ	C-	_	1	cc	_	_
+3	Ἀφρὰν	Ἀφράν	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	1	appos	_	NER=LOC
+4	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+5	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	χώραν	χώρα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
+7	Ἀφρικὰ	Ἀφρικός	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	8	xcomp	_	NER=NORP
+8	ὀνομασθῆναι	ὀνομάζω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Pass	1	conj	_	SpaceAfter=No
+
+# sent_id = 2210-13
+# text = .
+1	.	.	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2210-14
+# text = τούτους δὲ Ἡρακλεῖ συστρατεῦσαι ἐπὶ Λιβύην καὶ Ἀνταῖον·
+1	τούτους	οὗτος	ADJ	Pd	Case=Acc|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	δὲ	δέ	ADV	Df	_	4	discourse	_	_
+3	Ἡρακλεῖ	Ἡρακλέης	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	NER=GOD
+4	συστρατεῦσαι	συστρατεῦζω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	0	ROOT	_	_
+5	ἐπὶ	ἐπί	ADP	R-	_	6	case	_	_
+6	Λιβύην	Λιβύη	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	NER=LOC
+7	καὶ	καί	CCONJ	C-	_	6	cc	_	_
+8	Ἀνταῖον	Ἀνταῖος	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	6	conj	_	NER=PERSON|SpaceAfter=No
+9	·	·	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = 2210-15
+# text = γήμαντα δὲ τὴν Ἀφρὰ θυγατέρα Ἡρακλέα γεννῆσαι υἱὸν ἐξ αὐτῆς Διόδωρον.
+1	γήμαντα	γαμέω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	_	_
+2	δὲ	δέ	ADV	Df	_	7	discourse	_	_
+3	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+4	Ἀφρὰ	Ἀφρὰς	PROPN	Ne	_	5	nmod	_	NER=NORP
+5	θυγατέρα	θυγάτηρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+6	Ἡρακλέα	Ἡρακλῆς	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	7	nsubj	_	NER=GOD
+7	γεννῆσαι	γεννῆω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	0	ROOT	_	_
+8	υἱὸν	υἱός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	ἐξ	ἐκ	ADP	R-	_	10	case	_	_
+10	αὐτῆς	αὐτός	PRON	Pp	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	det	_	_
+11	Διόδωρον	Διόδωρος	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	8	appos	_	NER=PERSON|SpaceAfter=No
+12	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = 2210-16
+# text = τούτου δὲ γενέσθαι Σοφωνᾶν,
+1	τούτου	οὗτος	ADJ	Pd	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
+2	δὲ	δέ	ADV	Df	_	3	discourse	_	_
+3	γενέσθαι	γίγνομαι	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Mid	0	ROOT	_	_
+4	Σοφωνᾶν	Σοφωνᾶς	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	3	nsubj	_	NER=ORG|SpaceAfter=No
+5	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	3	punct	_	_
+
+# sent_id = 2210-17
+# text = ἀφ᾽ οὗ τοὺς βαρβάρους Σοφὰς λέγεσθαι
+1	ἀφ᾽	ἀφ᾽	ADP	R-	_	2	case	_	_
+2	οὗ	ὅς	PRON	Pr	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	6	obl	_	_
+3	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	βαρβάρους	βάρβαρος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	nsubj:pass	_	_
+5	Σοφὰς	Σοφός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem,Masc|Number=Plur	6	xcomp	_	_
+6	λέγεσθαι	λέγω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Pass	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2210-18
+# text = .
+1	.	.	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2210-19
+# text = Τὰ μὲν οὖν περὶ τοῦ Ἀβραὰμ ὡς ἐν ὀλίγοις τοσαῦτα παρακείσθω.
+1	Τὰ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	11	det	_	_
+2	μὲν	μέν	ADV	Df	_	11	discourse	_	_
+3	οὖν	οὖν	ADV	Df	_	11	discourse	_	_
+4	περὶ	περί	ADP	R-	_	6	case	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Ἀβραὰμ	Ἀβραάμ	PROPN	Ne	_	11	nmod	_	NER=PERSON
+7	ὡς	ὡς	ADV	Df	_	9	advmod	_	_
+8	ἐν	ἐν	ADP	R-	_	9	case	_	_
+9	ὀλίγοις	ὀλίγος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	11	advmod	_	_
+10	τοσαῦτα	τοσοῦτος	ADJ	Pd	Case=Nom|Gender=Neut|Number=Plur	11	dep	_	_
+11	παρακείσθω	παρακέω	VERB	V-	Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	SpaceAfter=No
+12	.	.	PUNCT	Z	_	11	punct	_	_

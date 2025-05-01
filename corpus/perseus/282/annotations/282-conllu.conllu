@@ -1,0 +1,94 @@
+# newdoc id = 282
+
+# sent_id = 282-1
+# text = Εἲς Ποσειδῶνα ἀμφὶ Ποσειδάωνα, μέγαν θεόν
+1	Εἲς	εἲς	ADP	R-	_	2	case	_	_
+2	Ποσειδῶνα	Ποσειδῶν	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	NER=GOD
+3	ἀμφὶ	ἀμφί	ADP	R-	_	4	case	_	_
+4	Ποσειδάωνα	Ποσειδῶν	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	2	appos	_	NER=GOD|SpaceAfter=No
+5	,	,	PUNCT	Z	_	2	cc	_	_
+6	μέγαν	μέγας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	θεόν	θεός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+
+# sent_id = 282-2
+# text = , ἄρχομʼ ἀείδειν, γαίης κινητῆρα καὶ ἀτρυγέτοιο θαλάσσης
+1	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	3	advmod	_	_
+2	ἄρχομʼ	ἄρχω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+3	ἀείδειν	ἀείδω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	3	cc	_	_
+5	γαίης	γαῖα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+6	κινητῆρα	κινητήρ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	_
+7	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+8	ἀτρυγέτοιο	ἀτρύγετος	ADJ	A-	Case=Gen|Degree=Pos|Number=Sing	9	amod	_	_
+9	θαλάσσης	θάλασσα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+
+# sent_id = 282-3
+# text = , πόντιον,
+1	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+2	πόντιον	πόντιος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 282-4
+# text = ὅσθʼ Ἑλικῶνα καὶ εὐρείας ἔχει Αἰγάς.
+1	ὅσθʼ	ὅδα	PROPN	Pr	_	0	ROOT	_	_
+2	Ἑλικῶνα	Ἑλικών	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	NER=LOC
+3	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+4	εὐρείας	εὐρύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+5	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+6	Αἰγάς	Αἰγαί	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 282-5
+# text = διχθά τοι, Ἐννοσίγαιε, θεοὶ τιμὴν ἐδάσαντο,
+1	διχθά	διχθά	ADV	Df	_	3	advmod	_	_
+2	τοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	1	iobj	_	SpaceAfter=No
+3	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	8	xcomp	_	_
+4	Ἐννοσίγαιε	Ἐννοσίγαιος	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	NER=GOD|SpaceAfter=No
+5	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	3	punct	_	_
+6	θεοὶ	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+7	τιμὴν	τιμή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+8	ἐδάσαντο	δατέομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	0	ROOT	_	SpaceAfter=No
+9	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	8	punct	_	_
+
+# sent_id = 282-6
+# text = ἵππων τε δμητῆρʼ ἔμεναι σωτῆρά τε νηῶν
+1	ἵππων	ἵππος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+2	τε	τε	CCONJ	C-	_	3	cc	_	_
+3	δμητῆρʼ	δμητῆρ	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	xcomp	_	_
+4	ἔμεναι	εἰμί	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Mid	0	ROOT	_	_
+5	σωτῆρά	σωτῆρα	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	_
+6	τε	τε	CCONJ	C-	_	4	cc	_	_
+7	νηῶν	ναῦς	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	4	dep	_	SpaceAfter=No
+
+# sent_id = 282-7
+# text = .
+1	.	.	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 282-8
+# text = χαῖρε,
+1	χαῖρε	χαίρω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 282-9
+# text = Ποσείδαον γαιήοχε, κυανοχαῖτα
+1	Ποσείδαον	Ποσειδῶν	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	0	ROOT	_	NER=GOD
+2	γαιήοχε	γαιήοχος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	NER=GOD|SpaceAfter=No
+3	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
+4	κυανοχαῖτα	κυανοχαίτης	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
+
+# sent_id = 282-10
+# text = , καί, μάκαρ
+1	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	καί	καί	CCONJ	C-	_	1	cc	_	SpaceAfter=No
+3	,	,	PUNCT	Z	Case=Nom|Gender=Fem,Masc|Number=Sing	4	det	_	_
+4	μάκαρ	μάκαρ	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
+
+# sent_id = 282-11
+# text = , εὐμενὲς ἦτορ ἔχων πλώουσιν ἄρηγε.
+1	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	εὐμενὲς	εὐμενής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	ἦτορ	ἦτορ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+4	ἔχων	ἔχω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	_
+5	πλώουσιν	πλέω	VERB	V-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	_
+6	ἄρηγε	ἄρηγε	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	Z	_	6	punct	_	_

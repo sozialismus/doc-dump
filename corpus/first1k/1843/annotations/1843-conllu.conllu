@@ -1,0 +1,135 @@
+# newdoc id = 1843
+
+# sent_id = 1843-1
+# text = .
+1	.	.	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 1843-2
+# text = Ὁ πῆχυϲ ἔχει παλαιϲτὰϲ ϛ´,
+1	Ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	πῆχυϲ	πῆχυϲ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	παλαιϲτὰϲ	παλαιϲτὰϲ	NOUN	Ne	Case=Voc|Gender=Neut|Number=Plur	3	vocative	_	_
+5	ϛ	ϛ	NUM	Ma	_	3	xcomp	_	SpaceAfter=No
+6	´	´	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	3	dep	_	_
+
+# sent_id = 1843-3
+# text = δακτύλουϲ κδ´
+1	δακτύλουϲ	δακτύλουϲ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	κδ	κδ	NUM	Ma	_	1	appos	_	SpaceAfter=No
+3	´	´	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	1	appos	_	SpaceAfter=No
+
+# sent_id = 1843-4
+# text = , πόδα Πτολομαϊκὸν α΄ϛ, Ῥωμαϊκὸν δὲ πόδα α΄ ϛ ε˝ ι˝.
+1	,	,	PUNCT	Z	_	2	amod	_	_
+2	πόδα	πούς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+3	Πτολομαϊκὸν	Πτολομαϊκός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	NER=PERSON
+4	α΄ϛ	α΄ϛ	CCONJ	V-	_	2	det	_	SpaceAfter=No
+5	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+6	Ῥωμαϊκὸν	Ῥωμαϊκός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	NER=NORP
+7	δὲ	δέ	ADV	Df	_	8	discourse	_	_
+8	πόδα	πούς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	_
+9	α΄	α	CCONJ	V-	_	2	amod	_	_
+10	ϛ	ϛ	NUM	Ma	_	9	xcomp	_	_
+11	ε˝	ε˝	CCONJ	V-	_	2	amod	_	_
+12	ι˝.	ι˝.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 1843-5
+# text = Ὁ ποὺϲ ὁ Πτολομαϊκὸϲ ἔχει εὐθυμετρικοὺϲ παλαιϲτὰϲ δ΄,
+1	Ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	ποὺϲ	ποὺϲ	ADV	Ne	PronType=Int	5	nsubj	_	_
+3	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	Πτολομαϊκὸϲ	Πτολομαϊκὸϲ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	εὐθυμετρικοὺϲ	εὐθυμετρικοὺϲ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	dep	_	_
+7	παλαιϲτὰϲ	παλαιϲτὰϲ	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	_
+8	δ΄	δ	CCONJ	V-	_	5	dep	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = 1843-6
+# text = ἐμβαδικοὺϲ ιϛ΄,
+1	ἐμβαδικοὺϲ	ἐμβαδικούϲ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	NER=NORP
+2	ιϛ΄	ιϛ΄	CCONJ	V-	_	0	ROOT	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	2	cc	_	_
+
+# sent_id = 1843-7
+# text = ϲτερεοὺϲ ξδ΄.
+1	ϲτερεοὺϲ	ϲτερεοὺϲ	X	Ne	_	2	vocative	_	_
+2	ξδ΄	ξδ	CCONJ	V-	_	0	ROOT	_	SpaceAfter=No
+3	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 1843-8
+# text = ὁ δὲ Ῥωμαϊκὸϲ ποὺϲ ἔχει εὐθυμετρικοὺϲ παλαιϲτὰϲ γ΄ γ˝,
+1	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	δὲ	δέ	ADV	Df	_	5	discourse	_	_
+3	Ῥωμαϊκὸϲ	Ῥωμαϊκὸϲ	ADV	A-	_	5	nsubj	_	NER=NORP
+4	ποὺϲ	ποὺϲ	ADV	Du	PronType=Int	3	appos	_	_
+5	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	εὐθυμετρικοὺϲ	εὐθυμετρικοὺϲ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	dep	_	_
+7	παλαιϲτὰϲ	παλαιϲτὰϲ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	5	appos	_	_
+8	γ΄	γ	CCONJ	V-	_	5	appos	_	_
+9	γ˝	γ˝	CCONJ	V-	_	5	dep	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	5	dep	_	_
+
+# sent_id = 1843-9
+# text = ἐμβαδικοὺϲ δὲ ια΄ θ˝
+1	ἐμβαδικοὺϲ	ἐμβαδικούϲ	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	orphan	_	NER=NORP
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	ια΄	ια΄	CCONJ	V-	_	0	ROOT	_	_
+4	θ˝	θ˝	CCONJ	V-	_	3	appos	_	SpaceAfter=No
+
+# sent_id = 1843-10
+# text = ,
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 1843-11
+# text = ϲτερεοὺϲ δὲ λϛ´
+1	ϲτερεοὺϲ	ϲτερεοὺϲ	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	δὲ	δέ	ADV	Df	_	3	discourse	_	_
+3	λϛ	λϛ	NUM	Ma	_	1	conj	_	SpaceAfter=No
+4	´	´	ADJ	Ne	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	3	conj	_	_
+
+# sent_id = 1843-12
+# text = κζ˝.
+1	κζ˝.	κζ˝.	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 1843-13
+# text = Ἔχει δὲ καὶ λόγον ὁ Πτολομαϊκὸϲ ποὺϲ πρὸϲ τὸν βαϲιλικὸν πῆχυν κατὰ εὐθυμετρίαν ὡϲ β´ πρὸϲ γ´.
+1	Ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	καὶ	καί	ADV	Df	_	4	advmod	_	_
+4	λόγον	λόγος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+5	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Πτολομαϊκὸϲ	Πτολομαϊκὸϲ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	nsubj	_	NER=PERSON
+7	ποὺϲ	ποὺϲ	ADV	Du	PronType=Int	1	vocative	_	_
+8	πρὸϲ	πρὸϲ	ADP	R-	_	1	dep	_	_
+9	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+10	βαϲιλικὸν	βαϲιλικός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	NER=NORP
+11	πῆχυν	πῆχυς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+12	κατὰ	κατά	ADP	R-	_	13	case	_	_
+13	εὐθυμετρίαν	εὐθυμετρία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	11	orphan	_	_
+14	ὡϲ	ὡϲ	INTJ	I-	_	1	vocative	_	_
+15	β	ΑΒΓ	NUM	V-	_	1	vocative	_	SpaceAfter=No
+16	´	´	X	Nb	_	1	vocative	_	_
+17	πρὸϲ	πρὸϲ	ADP	R-	_	1	vocative	_	_
+18	γ´.	γ´.	X	Ne	_	1	punct	_	_
+
+# sent_id = 1843-14
+# text = Ὁ Ῥωμαϊκὸϲ ποὺϲ πρὸϲ τὸν βαϲιλικὸν πῆχυν λόγον ἔχει κατὰ εὐθυμετρίαν ὡϲ ε´ πρὸϲ θ´.
+1	Ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	Ῥωμαϊκὸϲ	Ῥωμαϊκὸϲ	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	3	nsubj	_	NER=NORP
+3	ποὺϲ	ποὺϲ	ADV	Du	PronType=Int	9	vocative	_	_
+4	πρὸϲ	πρὸϲ	ADP	R-	_	11	case	_	_
+5	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+6	βαϲιλικὸν	βαϲιλικός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	πῆχυν	πῆχυς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+8	λόγον	λόγος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+9	ἔχει	ἔχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+10	κατὰ	κατά	ADP	R-	_	11	case	_	_
+11	εὐθυμετρίαν	εὐθυμετρία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+12	ὡϲ	ὡϲ	INTJ	I-	_	9	vocative	_	_
+13	ε	ε	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	vocative	_	SpaceAfter=No
+14	´	´	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	9	vocative	_	_
+15	πρὸϲ	πρὸϲ	ADP	R-	_	9	dep	_	_
+16	θ´.	θ´.	PUNCT	Z	_	7	appos	_	_

@@ -1,0 +1,51 @@
+# newdoc id = 479
+
+# sent_id = 479-1
+# text = Δημήτηρ ἠύκομον, σεμνὴν θεάν
+1	Δημήτηρ	Δημήτηρ	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	NER=GOD
+2	ἠύκομον	εὔκομος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	1	cc	_	_
+4	σεμνὴν	σεμνός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	θεάν	θεός	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+
+# sent_id = 479-2
+# text = ,
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 479-3
+# text = ἄρχομ ἀείδειν, αὐτὴν καὶ κούρην,
+1	ἄρχομ	ἄρχομ	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+2	ἀείδειν	ἀείδω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	1	iobj	_	_
+4	αὐτὴν	αὐτός	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+5	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+6	κούρην	κόρη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 479-4
+# text = περικαλλέα Περσεφόνειαν
+1	περικαλλέα	περικαλλής	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	Περσεφόνειαν	Περσεφόνεια	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	NER=GOD|SpaceAfter=No
+
+# sent_id = 479-5
+# text = .
+1	.	.	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 479-6
+# text = χαῖρε, θεά, καὶ τήνδε σάου πόλιν·
+1	χαῖρε	χαίρω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	Z	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
+3	θεά	θεά	PROPN	Ne	Case=Voc|Gender=Fem|Number=Sing	2	vocative	_	SpaceAfter=No
+4	,	,	PUNCT	Z	Case=Acc|Gender=Fem|Number=Sing	2	parataxis	_	_
+5	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+6	τήνδε	ὅδε	DET	Pd	Case=Acc|Gender=Fem|Number=Sing	8	det	_	_
+7	σάου	σάου	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+8	πόλιν	πόλις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+9	·	·	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 479-7
+# text = ἄρχε δ ἀοιδῆς.
+1	ἄρχε	ἄρχω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δ	ΑΒΓ	ADV	Df	_	1	discourse	_	_
+3	ἀοιδῆς	ἀοιδή	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	iobj	_	SpaceAfter=No
+4	.	.	PUNCT	Z	_	1	punct	_	_

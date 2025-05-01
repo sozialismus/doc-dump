@@ -1,0 +1,42 @@
+# newdoc id = 2206
+
+# sent_id = 2206-1
+# text = äü.
+1	äü.	äü.	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2206-2
+# text = Ἤδη δὲ καὶ ἐν ἑβδομάσι πᾶς ὁ κόσμος κυκλεῖται τῶν ζῳογονουμένων καὶ τῶν φυομένων ἁπάντων.
+1	Ἤδη	ἤδη	ADV	Df	_	9	advmod	_	_
+2	δὲ	δέ	ADV	Df	_	9	discourse	_	_
+3	καὶ	καί	ADV	Df	_	9	advmod	_	_
+4	ἐν	ἐν	ADP	R-	_	5	case	_	_
+5	ἑβδομάσι	ἑβδομάς	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	9	obl	_	_
+6	πᾶς	πᾶς	DET	Px	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
+7	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	κόσμος	κόσμος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	9	nsubj:pass	_	_
+9	κυκλεῖται	κυκλέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	ROOT	_	_
+10	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	11	det	_	_
+11	ζῳογονουμένων	ζῳογονέω	VERB	V-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	9	dep	_	_
+12	καὶ	καί	CCONJ	C-	_	11	cc	_	_
+13	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	14	det	_	_
+14	φυομένων	φύω	VERB	V-	Case=Gen|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	11	conj	_	_
+15	ἁπάντων	ἅπας	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	Z	_	9	punct	_	_
+
+# sent_id = 2206-3
+# text = τάς τε τῶν ἡλικιῶν μεταβολὰς κατὰ ἑβδομάδα γίνεσθαι Σόλωνος αἱ ἐλεγεῖαι δηλοῦσιν ὧδέ πως·
+1	τάς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+2	τε	τε	CCONJ	C-	_	8	cc	_	_
+3	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	4	det	_	_
+4	ἡλικιῶν	ἡλικία	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+5	μεταβολὰς	μεταβολή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	8	nsubj	_	_
+6	κατὰ	κατά	ADP	R-	_	7	case	_	_
+7	ἑβδομάδα	ἑβδομάς	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	γίνεσθαι	γίγνομαι	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Mid	12	ccomp	_	_
+9	Σόλωνος	Σόλων	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	NER=PERSON
+10	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	11	det	_	_
+11	ἐλεγεῖαι	ἐλεγεία	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+12	δηλοῦσιν	δηλόω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+13	ὧδέ	ὧδε	ADV	Df	_	12	advmod	_	_
+14	πως	πως	ADV	Df	Degree=Pos	13	advmod	_	SpaceAfter=No
+15	·	·	PUNCT	Z	_	12	punct	_	_

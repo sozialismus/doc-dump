@@ -1,0 +1,53 @@
+# newdoc id = 495
+
+# sent_id = 495-1
+# text = Εἲς Διοσκούρους Κάστορα καὶ Πολυδεύκἐ ἀείσεο
+1	Εἲς	εἲς	ADP	R-	_	2	case	_	_
+2	Διοσκούρους	Διόσκουροι	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	NER=NORP
+3	Κάστορα	Κάστωρ	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	NER=PERSON
+4	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+5	Πολυδεύκἐ	Πολυδεύκἐ	PROPN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	conj	_	NER=PERSON
+6	ἀείσεο	ἀείσω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Mid	2	acl	_	SpaceAfter=No
+
+# sent_id = 495-2
+# text = , Μοῦσα λίγεια, Τυνδαρίδας, οἳ Ζηνὸς Ὀλυμπίου ἐξεγένοντο· τοὺς ὑπὸ Τηϋγέτου κορυφῇς τέκε πότνια Λήδη λάθρη ὑποδμηθεῖσα κελαινεφέι Κρονίωνι.
+1	,	,	PUNCT	Z	_	5	amod	_	_
+2	Μοῦσα	Μοῦσα	NOUN	Ne	Case=Voc|Gender=Fem|Number=Sing	1	vocative	_	NER=GOD
+3	λίγεια	λιγύς	ADJ	Ne	Case=Voc|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	1	parataxis	_	_
+5	Τυνδαρίδας	Τυνδάρεος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	0	ROOT	_	NER=GOD|SpaceAfter=No
+6	,	,	PUNCT	Z	_	5	nmod	_	_
+7	οἳ	ὁ	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	_
+8	Ζηνὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	NER=GOD
+9	Ὀλυμπίου	Ὀλύμπιος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+10	ἐξεγένοντο	ἐκγίγνομαι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Mid	6	acl	_	SpaceAfter=No
+11	·	·	PUNCT	Z	_	5	punct	_	_
+12	τοὺς	ὁ	PRON	Pr	Case=Acc|Gender=Masc|Number=Plur|PronType=Rel	16	obj	_	_
+13	ὑπὸ	ὑπό	ADP	R-	_	15	case	_	_
+14	Τηϋγέτου	Τηϋγέτος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+15	κορυφῇς	κορυφή	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+16	τέκε	τίκτω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl	_	_
+17	πότνια	πότνια	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	Λήδη	Λήδης	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	NER=PERSON
+19	λάθρη	λάθρῃ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	advmod	_	_
+20	ὑποδμηθεῖσα	ὑποδαμνάω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	_
+21	κελαινεφέι	κελαινεφέι	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	20	iobj	_	_
+22	Κρονίωνι	Κρονίων	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	20	iobj	_	NER=GOD|SpaceAfter=No
+23	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = 495-3
+# text = χαίρετε,
+1	χαίρετε	χαίρω	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 495-4
+# text = Τυνδαρίδαι
+1	Τυνδαρίδαι	Τυνδάρεος	NOUN	Nb	Case=Voc|Gender=Masc|Number=Plur	0	ROOT	_	NER=GOD|SpaceAfter=No
+
+# sent_id = 495-5
+# text = , ταχέων ἐπιβήτορες ἵππων.
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+2	ταχέων	ταχύς	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	_
+3	ἐπιβήτορες	ἐπιβήτωρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+4	ἵππων	ἵππος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	_	_

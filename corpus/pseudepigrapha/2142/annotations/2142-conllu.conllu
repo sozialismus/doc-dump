@@ -1,0 +1,42 @@
+# newdoc id = 2142
+
+# sent_id = 2142-1
+# text = ΘΕΟΣ·
+1	ΘΕΟΣ	ΘΕΟΣ	ADV	Nb	_	0	ROOT	_	SpaceAfter=No
+2	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2142-2
+# text = Ἀάρωνα πέμψω σὸν κασίγνητον ταχύ, ὧͺ πάντα λέξεις τἀξ ἐμοῦ λελεγμένα, καὶ αὐτὸς λαλήσει βασιλέως ἐναντίον,
+1	Ἀάρωνα	Ἀάρων	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	NER=PERSON
+2	πέμψω	πέμπω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	σὸν	σός	ADJ	Ps	Case=Acc|Gender=Masc|Number=Sing|Person=2|Poss=Yes	4	nmod	_	_
+4	κασίγνητον	κασίγνητος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	ταχύ	ταχύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+7	ὧͺ	ὧͺ	CCONJ	V-	_	2	obl	_	_
+8	πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+9	λέξεις	λέγω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	2	obj	_	_
+10	τἀξ	ἐκ	ADP	R-	_	11	case	_	_
+11	ἐμοῦ	ἐμός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
+12	λελεγμένα	λέγω	VERB	V-	Aspect=Perf|Case=Acc|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	2	parataxis	_	_
+14	καὶ	καί	CCONJ	C-	_	2	cc	_	_
+15	αὐτὸς	αὐτός	ADJ	Pp	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	λαλήσει	λαλέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	βασιλέως	βασιλεύς	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+18	ἐναντίον	ἐναντίον	ADP	R-	_	17	case	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 2142-3
+# text = σὺ μὲν πρὸς ἡμᾶς, ὁ δὲ λαβὼν σέθεν πάρα.
+1	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	μὲν	μέν	ADV	Df	_	4	discourse	_	_
+3	πρὸς	πρός	ADP	R-	_	4	case	_	_
+4	ἡμᾶς	ἡμεῖς	PRON	Pp	Case=Acc|Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	0	ROOT	_	_
+6	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+7	δὲ	δέ	ADV	Df	_	8	discourse	_	_
+8	λαβὼν	λαμβάνω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	conj	_	_
+9	σέθεν	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	iobj	_	_
+10	πάρα	πάρα	ADP	R-	_	9	case	_	SpaceAfter=No
+11	.	.	PUNCT	Z	_	5	punct	_	_

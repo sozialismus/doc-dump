@@ -1,0 +1,77 @@
+# newdoc id = 1186
+# sent_id = 1186-1
+# text = ΕΙϹ
+1	ΕΙϹ	ΕΙϹ	SCONJ	G-	_	0	ROOT	_	_
+
+# sent_id = 1186-2
+# text = ΤΟ ΠΕΡΙ ΓΕΝΩΝ ΑΠΟΛΛΩΝΙΟΥ ΥΠΟΜΝΗΜΑ.,. Καρία ὑπομνηματίζων τὸ περὶ γενῶν Ἀπολλωνίου διὰ τοῦ ῑ μακροῦ.
+1	ΤΟ	ΤΟ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	5	det	_	_
+2	ΠΕΡΙ	ΠΕΡΙ	ADP	R-	_	3	case	_	_
+3	ΓΕΝΩΝ	ΓΕΝΩΝ	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+4	ΑΠΟΛΛΩΝΙΟΥ	ΑΠΟΛΛΩΝΙΟΥ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NER=PERSON
+5	ΥΠΟΜΝΗΜΑ.,.	ΥΠΟΜΝΗΜΑ.,.	PUNCT	Z	_	0	ROOT	_	_
+6	Καρία	Κάριος	PROPN	Ne	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	NER=NORP
+7	ὑπομνηματίζων	ὑπομνηματίζω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	_
+8	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	10	det	_	_
+9	περὶ	περί	ADP	R-	_	10	case	_	_
+10	γενῶν	γένος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	7	obj	_	_
+11	Ἀπολλωνίου	Ἀπολλώνιος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	NER=PERSON
+12	διὰ	διά	ADP	R-	_	14	case	_	_
+13	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	14	det	_	_
+14	ῑ	ῑ	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+15	μακροῦ	μακρός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	Z	_	7	punct	_	_
+
+# sent_id = 1186-3
+# text = τὸ Κάϊρα φηϲιν ὁ Ἡρωδιανόϲ.
+1	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	2	det	_	_
+2	Κάϊρα	Κάϊρα	ADV	Df	_	0	ROOT	_	_
+3	φηϲιν	φηϲιν	NOUN	Ne	_	2	nmod	_	_
+4	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Ἡρωδιανόϲ	Ἡρωδιανόϲ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 1186-4
+# text = ἔϲτι γὰρ ὅτε μετὰ τὴν διαίρεϲιν ἔκταϲιϲ γίνεται,
+1	ἔϲτι	ἔϲτι	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	8	xcomp	_	_
+2	γὰρ	γάρ	ADV	Df	_	8	discourse	_	_
+3	ὅτε	ὅτε	SCONJ	G-	_	8	mark	_	_
+4	μετὰ	μετά	ADP	R-	_	6	case	_	_
+5	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	διαίρεϲιν	διαίρεϲιν	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+7	ἔκταϲιϲ	ἔκταϲιϲ	NOUN	Nb	_	8	xcomp	_	_
+8	γίνεται	γίγνομαι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = 1186-5
+# text = ὀϊομαι, ὄϊγον,
+1	ὀϊομαι	ὀϊω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	ccomp	_	_
+3	ὄϊγον	ὄϊγος	PRON	Pp	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	1	parataxis	_	_
+
+# sent_id = 1186-6
+# text = ὄιδα παῤ Αἰολεῦϲιν ἀντὶ τοῦ οἶδα.
+1	ὄιδα	ὄις	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	παῤ	παῤ	ADP	R-	_	3	case	_	_
+3	Αἰολεῦϲιν	Αἰολεῦϲι	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
+4	ἀντὶ	ἀντί	ADP	R-	_	6	mark	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	οἶδα	οἶδα	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1186-7
+# text = ἡ χρῆϲιϲ δὲ διά διφθόγγου κατὰ ϲυνεκδρομὴν τοῦ ϲώτειρα, ὀλέτειρα.
+1	ἡ	ὁ	CCONJ	C-	_	2	cc	_	_
+2	χρῆϲιϲ	χρῆϲιϲ	NOUN	Nb	_	0	ROOT	_	_
+3	δὲ	δέ	ADV	Df	_	2	discourse	_	_
+4	διά	διά	ADP	R-	_	5	case	_	_
+5	διφθόγγου	διφθόγγω	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	2	obl	_	_
+6	κατὰ	κατά	ADP	R-	_	7	case	_	_
+7	ϲυνεκδρομὴν	ϲυνεκδρομήν	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_
+8	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	9	det	_	_
+9	ϲώτειρα	ϲώτειρα	NOUN	Ne	_	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	2	parataxis	_	_
+11	ὀλέτειρα	ὀλέτειρα	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	Z	_	2	punct	_	_
+

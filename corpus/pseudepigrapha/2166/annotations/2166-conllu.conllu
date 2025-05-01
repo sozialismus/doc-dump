@@ -1,0 +1,28 @@
+# newdoc id = 2166
+
+# sent_id = 2166-1
+# text = Ἐγγὺς κύριος τοῖς ἐπιστρεφομένοις,
+1	Ἐγγὺς	Ἐγγύς	ADV	Df	Degree=Pos	0	ROOT	_	_
+2	κύριος	κύριος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	ἐπιστρεφομένοις	ἐπιστρεφόμενος	VERB	V-	Case=Dat|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	1	iobj	_	SpaceAfter=No
+5	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	1	nsubj	_	_
+
+# sent_id = 2166-2
+# text = ὡς γέγραπται ἐν τῷ Ἐλδὰδ καὶ Μωδάτ, τοῖς προφητεύσασιν ἐν τῇ ἐρήμῳ τῷ λαῷ.
+1	ὡς	ὡς	ADV	Dq	PronType=Rel	2	advmod	_	_
+2	γέγραπται	γράφω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	ROOT	_	_
+3	ἐν	ἐν	ADP	R-	_	5	case	_	_
+4	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Ἐλδὰδ	Ἐλδὰδ	PROPN	Ne	_	2	obl	_	NER=PERSON
+6	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+7	Μωδάτ	Μωδάτ	PROPN	Ne	_	5	conj	_	NER=PERSON|SpaceAfter=No
+8	,	,	PUNCT	Z	_	2	dep	_	_
+9	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	προφητεύσασιν	προφητεύσαμι	VERB	V-	Aspect=Perf|Case=Dat|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	8	nmod	_	_
+11	ἐν	ἐν	ADP	R-	_	13	case	_	_
+12	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	ἐρήμῳ	ἔρημος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	obl	_	_
+14	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	λαῷ	λαός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	Z	_	2	punct	_	_

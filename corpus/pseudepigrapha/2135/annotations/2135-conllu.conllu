@@ -1,0 +1,75 @@
+# newdoc id = 2135
+
+# sent_id = 2135-1
+# text = ΣΕΠΦΩΡΑ·
+1	ΣΕΠΦΩΡΑ	ΣΕΠΦΩΡΑ	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	0	ROOT	_	SpaceAfter=No
+2	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2135-2
+# text = Λιβύη μὲν ἡ γῆ πᾶσα κλήͺζεται, ξένε,
+1	Λιβύη	Λιβύη	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	NER=LOC
+2	μὲν	μέν	ADV	Df	_	7	discourse	_	_
+3	ἡ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	γῆ	γῆ	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+5	πᾶσα	πᾶς	DET	Px	Case=Nom|Gender=Fem|Number=Sing	4	det	_	_
+6	κλήͺζεται	κλήͺζω	DET	Px	Case=Nom|Gender=Fem|Number=Sing	4	det	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	0	ROOT	_	_
+8	ξένε	ξένος	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	7	vocative	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	7	parataxis	_	_
+
+# sent_id = 2135-3
+# text = οἰκοῦσι δ᾽ αὐτὴν φῦλα παντοίων γενῶν,
+1	οἰκοῦσι	οἰκέω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δ᾽	δ᾽	ADV	Df	_	1	discourse	_	_
+3	αὐτὴν	αὐτός	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+4	φῦλα	φῦλον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	1	nsubj	_	_
+5	παντοίων	παντοῖος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Plur	6	amod	_	_
+6	γενῶν	γένος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	1	advmod	_	_
+
+# sent_id = 2135-4
+# text = Αἰθίοπες ἄνδρες μέλανες
+1	Αἰθίοπες	Αἰθίοψ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	NER=NORP
+2	ἄνδρες	ἀνήρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	1	appos	_	_
+3	μέλανες	μέλας	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+
+# sent_id = 2135-5
+# text = ·
+1	·	·	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2135-6
+# text = ἄρχων δ᾽ ἐστὶ γῆς εἷς καὶ τύραννος καὶ στρατηλάτης μόνος.
+1	ἄρχων	ἄρχων	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	δ᾽	δ᾽	ADV	Df	_	1	discourse	_	_
+3	ἐστὶ	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
+4	γῆς	γῆ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	εἷς	εἷς	NUM	Ma	Case=Nom|Gender=Masc|Number=Sing	1	nummod	_	_
+6	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+7	τύραννος	τύραννος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+8	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+9	στρατηλάτης	στρατηλάτης	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	7	conj	_	_
+10	μόνος	μόνος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2135-7
+# text = ἄρχει δὲ πόλεως τῆσδε καὶ κρίνει βροτούς ἱερεύς,
+1	ἄρχει	ἄρχω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	πόλεως	πόλις	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	1	iobj	_	_
+4	τῆσδε	ὅδε	DET	Pd	Case=Gen|Gender=Fem|Number=Sing	3	det	_	_
+5	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+6	κρίνει	κρίνω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	_
+7	βροτούς	βροτός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	6	obj	_	_
+8	ἱερεύς	ἱερεύς	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2135-8
+# text = ὅς ἐστ᾽ ἐμοῦ τε καὶ τούτων πατήρ.
+1	ὅς	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	nsubj	_	_
+2	ἐστ᾽	ἐστ᾽	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+3	ἐμοῦ	ἐμός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
+4	τε	τε	CCONJ	C-	_	3	cc	_	_
+5	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+6	τούτων	οὗτος	DET	Pd	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	_
+7	πατήρ	πατήρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+8	.	.	PUNCT	Z	_	7	punct	_	_

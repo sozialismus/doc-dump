@@ -1,0 +1,50 @@
+# newdoc id = 2200
+
+# sent_id = 2200-1
+# text = äü καὶ τὸ σύνολον Πυθαγόρας καὶ Σωκράτης καὶ Πλάτων, λέγοντες ἀκούειν φωνῆς θεοῦ, τὴν κατασκευὴν τῶν ὅλων θεωροῦντες ἀκριβῶς ὑπὸ θεοῦ γεγονυῖαν καὶ συνεχομένην ἀδιαλείπτως, ἀκηκόασι γὰρ τοῦ Μωυσέως λέγοντος εἶπεν, καὶ ἐγένετο, τὸν λόγον τοῦ θεοῦ ἔργον εἶναι διαγράφοντος.
+1	äü	äü	CCONJ	V-	_	0	ROOT	_	_
+2	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+3	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	σύνολον	σύνολος	ADV	Df	_	5	advmod	_	_
+5	Πυθαγόρας	Πυθαγόρας	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	NER=PERSON
+6	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+7	Σωκράτης	Σωκράτης	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	NER=PERSON
+8	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+9	Πλάτων	Πλάτων	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	NER=PERSON|SpaceAfter=No
+10	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	5	dep	_	_
+11	λέγοντες	λέγω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	_
+12	ἀκούειν	ἀκούω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	φωνῆς	φωνή	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	12	iobj	_	_
+14	θεοῦ	θεός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	5	cc	_	_
+16	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	κατασκευὴν	κατασκευή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+18	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	19	det	_	_
+19	ὅλων	ὅλος	ADJ	A-	Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+20	θεωροῦντες	θεωρέω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	advcl	_	_
+21	ἀκριβῶς	ἀκριβῶς	ADV	Df	Degree=Pos	20	advmod	_	_
+22	ὑπὸ	ὑπό	ADP	R-	_	23	case	_	_
+23	θεοῦ	θεός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	24	obl:agent	_	_
+24	γεγονυῖαν	γίγνομαι	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	20	xcomp	_	_
+25	καὶ	καί	CCONJ	C-	_	24	cc	_	_
+26	συνεχομένην	συνεχομένη	VERB	V-	Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	24	conj	_	_
+27	ἀδιαλείπτως	ἀδιαλείπτως	ADV	Df	Degree=Pos	26	advmod	_	SpaceAfter=No
+28	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	5	dislocated	_	_
+29	ἀκηκόασι	ἀκούω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+30	γὰρ	γάρ	ADV	Df	_	29	discourse	_	_
+31	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	32	det	_	_
+32	Μωυσέως	Μωυσῆς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	29	iobj	_	NER=PERSON
+33	λέγοντος	λέγω	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	29	xcomp	_	_
+34	εἶπεν	λέγω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	29	ccomp	_	SpaceAfter=No
+35	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	5	dep	_	_
+36	καὶ	καί	CCONJ	C-	_	37	cc	_	_
+37	ἐγένετο	γίγνομαι	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	SpaceAfter=No
+38	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	45	advmod	_	_
+39	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	40	det	_	_
+40	λόγον	λόγος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	45	nsubj	_	_
+41	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	42	det	_	_
+42	θεοῦ	θεός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
+43	ἔργον	ἔργον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	45	xcomp	_	_
+44	εἶναι	εἰμί	AUX	V-	Tense=Pres|VerbForm=Inf|Voice=Act	43	cop	_	_
+45	διαγράφοντος	διαγράφω	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	conj	_	SpaceAfter=No
+46	.	.	PUNCT	Z	_	5	punct	_	_

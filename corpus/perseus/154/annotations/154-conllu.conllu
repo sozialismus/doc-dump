@@ -1,0 +1,70 @@
+# newdoc id = 154
+
+# sent_id = 154-1
+# text = Εἲς Ἀπόλλωνα
+1	Εἲς	εἲς	ADP	R-	_	2	case	_	_
+2	Ἀπόλλωνα	Ἀπόλλων	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	NER=GOD
+
+# sent_id = 154-2
+# text = φοῖβε, σὲ μὲν καὶ κύκνος ὑπὸ πτερύγων λίγʼ ἀείδει, ὄχθῃ ἐπιθρώσκων ποταμὸν πάρα δινήεντα, Πηνειόν
+1	φοῖβε	φοῖβος	NOUN	A-	Case=Voc|Gender=Masc|Number=Sing	2	vocative	_	NER=GOD|SpaceAfter=No
+2	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	10	advmod	_	_
+3	σὲ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+4	μὲν	μέν	ADV	Df	_	10	discourse	_	_
+5	καὶ	καί	ADV	Df	_	6	advmod	_	_
+6	κύκνος	κύκνος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	ὑπὸ	ὑπό	ADP	R-	_	8	case	_	_
+8	πτερύγων	πτέρυξ	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	10	obl	_	_
+9	λίγʼ	λίγα	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	advmod	_	_
+10	ἀείδει	ἀείδω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+11	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	10	conj	_	_
+12	ὄχθῃ	ὄχθη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+13	ἐπιθρώσκων	ἐπιθρώσκω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	11	advcl	_	_
+14	ποταμὸν	ποταμός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	πάρα	πάρα	ADP	R-	_	16	case	_	_
+16	δινήεντα	δινήεις	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	10	dislocated	_	_
+18	Πηνειόν	Πηνειός	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	3	appos	_	NER=LOC|SpaceAfter=No
+
+# sent_id = 154-3
+# text = · σὲ δʼ ἀοιδὸς ἔχων φόρμιγγα λίγειαν ἡδυεπὴς πρῶτόν τε καὶ ὕστατον αἰὲν ἀείδει.
+1	·	·	PUNCT	Z	_	14	advmod	_	_
+2	σὲ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	14	obj	_	_
+3	δʼ	δέ	ADV	Df	_	14	discourse	_	_
+4	ἀοιδὸς	ἀοιδός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+5	ἔχων	ἔχω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	advcl	_	_
+6	φόρμιγγα	φόρμιγξ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	λίγειαν	λιγύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+8	ἡδυεπὴς	ἡδυεπής	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	advmod	_	_
+9	πρῶτόν	πρῶτος	ADJ	Mo	Case=Acc|Gender=Neut|Number=Sing	14	advmod	_	_
+10	τε	τε	CCONJ	C-	_	9	cc	_	_
+11	καὶ	καί	CCONJ	C-	_	9	cc	_	_
+12	ὕστατον	ὕστερος	ADJ	A-	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	9	conj	_	_
+13	αἰὲν	ἀεί	ADV	Df	_	14	advmod	_	_
+14	ἀείδει	ἀείδω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+15	.	.	PUNCT	Z	_	14	punct	_	_
+
+# sent_id = 154-4
+# text = καὶ σὺ μὲν οὕτω χαῖρε,
+1	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+2	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+3	μὲν	μέν	ADV	Df	_	5	discourse	_	_
+4	οὕτω	οὕτως	ADV	Df	_	5	advmod	_	_
+5	χαῖρε	χαίρω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+6	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	5	punct	_	_
+
+# sent_id = 154-5
+# text = ἄναξ
+1	ἄναξ	ἄναξ	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 154-6
+# text = ,
+1	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+# sent_id = 154-7
+# text = ἵλαμαι δέ σʼ ἀοιδῇ.
+1	ἵλαμαι	ἵλαμαι	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+2	δέ	δέ	ADV	Df	_	1	discourse	_	_
+3	σʼ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	1	obj	_	_
+4	ἀοιδῇ	ἀοιδή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+5	.	.	PUNCT	Z	_	1	punct	_	_

@@ -1,0 +1,75 @@
+# newdoc id = 2234
+
+# sent_id = 2234-1
+# text = ὕστερον δέ φησιν αὐτὴν ὑπὸ Ἑβραίων κατασχεθῆναι, δυναστεύοντος Ἐμμώρ·
+1	ὕστερον	ὕστερος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	_
+2	δέ	δέ	ADV	Df	_	3	discourse	_	_
+3	φησιν	φημί	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	αὐτὴν	αὐτός	PRON	Pp	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+5	ὑπὸ	ὑπό	ADP	R-	_	6	case	_	_
+6	Ἑβραίων	Ἑβραῖος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	7	obl:agent	_	NER=NORP
+7	κατασχεθῆναι	κατέχω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Pass	3	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	3	dep	_	_
+9	δυναστεύοντος	δυναστεύω	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	advcl	_	_
+10	Ἐμμώρ	Ἐμμώρ	PROPN	Ne	_	9	nsubj	_	NER=PERSON|SpaceAfter=No
+11	·	·	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 2234-2
+# text = τὸν γὰρ Ἐμμὼρ υἱὸν γεννῆσαι Συχέμ.
+1	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+2	γὰρ	γάρ	ADV	Df	_	5	discourse	_	_
+3	Ἐμμὼρ	Ἐμμὼρ	PROPN	Ne	_	5	nsubj	_	NER=PERSON
+4	υἱὸν	υἱός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	3	appos	_	_
+5	γεννῆσαι	γεννῆω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	0	ROOT	_	_
+6	Συχέμ	Συχέμ	PROPN	Ne	_	5	obj	_	NER=PERSON|SpaceAfter=No
+7	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = 2234-3
+# text = φησὶ δέ· Ἐνθένδε,
+1	φησὶ	φημί	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δέ	δέ	ADV	Df	_	1	discourse	_	SpaceAfter=No
+3	·	·	PUNCT	Z	_	1	ccomp	_	_
+4	Ἐνθένδε	Ἐνθένδε	ADV	Df	_	1	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	1	dep	_	_
+
+# sent_id = 2234-4
+# text = ξένε
+1	ξένε	ξένος	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2234-5
+# text = , ποιμενόφι πτόλιν ἤλυθ᾽ Ἰακὼβ εὐρεῖαν Σικίμων
+1	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+2	ποιμενόφι	ποιμενόφι	PROPN	Ne	_	4	obl	_	_
+3	πτόλιν	πόλις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+4	ἤλυθ᾽	ἤλυθ᾽	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	ROOT	_	_
+5	Ἰακὼβ	Ἰακώβ	PROPN	Ne	_	4	obl	_	NER=PERSON
+6	εὐρεῖαν	εὐρύς	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+7	Σικίμων	Σικίμων	PROPN	Ne	_	6	nmod	_	NER=LOC|SpaceAfter=No
+
+# sent_id = 2234-6
+# text = ·
+1	·	·	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2234-7
+# text = ἐπὶ δ᾽ ἀνδράσι τοῖσιν ἔτῃσιν ἀρχὸς Ἐμὼρ σὺν παιδὶ Συχέμ,
+1	ἐπὶ	ἐπί	ADP	R-	_	3	case	_	_
+2	δ᾽	δ᾽	ADV	Df	_	3	discourse	_	_
+3	ἀνδράσι	ἀνήρ	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	6	orphan	_	_
+4	τοῖσιν	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+5	ἔτῃσιν	ἔτῃμι	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	_
+6	ἀρχὸς	ἀρχός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+7	Ἐμὼρ	Ἐμὼρ	PROPN	Ne	_	6	nmod	_	_
+8	σὺν	σύν	ADP	R-	_	9	case	_	_
+9	παιδὶ	παῖς	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	6	appos	_	_
+10	Συχέμ	Συχέμ	PROPN	Ne	_	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2234-8
+# text = μάλ᾽ ἀτειρέε φῶτε
+1	μάλ᾽	μάλ᾽	ADV	Df	_	3	advmod	_	_
+2	ἀτειρέε	ἀτειρέε	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	φῶτε	φώς	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 2234-9
+# text = .
+1	.	.	PUNCT	Z	_	0	ROOT	_	_

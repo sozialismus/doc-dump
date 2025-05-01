@@ -1,0 +1,67 @@
+# newdoc id = 106
+# sent_id = 106-1
+# text = Εἲς Μητέρα Θεῶν μητέρα μοι πάντων τε θεῶν πάντων τʼ ἀνθρώπων ὕμνει,
+1	Εἲς	Εἲς	ADP	R-	_	2	case	_	_
+2	Μητέρα	μήτηρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+3	Θεῶν	θεός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	μητέρα	μήτηρ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+5	μοι	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	12	obl	_	_
+6	πάντων	πᾶς	DET	Px	Case=Gen|Gender=Masc|Number=Plur	8	det	_	_
+7	τε	τε	CCONJ	C-	_	8	cc	_	_
+8	θεῶν	θεός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+9	πάντων	πᾶς	DET	Px	Case=Gen|Gender=Masc|Number=Plur	8	det	_	_
+10	τʼ	τε	CCONJ	C-	_	8	cc	_	_
+11	ἀνθρώπων	ἄνθρωπος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+12	ὕμνει	ὑμνέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	12	advcl	_	_
+
+# sent_id = 106-2
+# text = Μοῦσα λίγεια, Διὸς θυγάτηρ μεγάλοιο,
+1	Μοῦσα	Μοῦσα	PROPN	Ne	Case=Voc|Gender=Fem|Number=Sing	3	vocative	_	NER=GOD
+2	λίγεια	λιγύς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	0	ROOT	_	_
+4	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	NER=GOD
+5	θυγάτηρ	θυγάτηρ	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	3	dislocated	_	_
+6	μεγάλοιο	μέγας	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	3	parataxis	_	_
+
+# sent_id = 106-3
+# text = ᾗ κροτάλων τυπάνων τʼ ἰαχὴ σύν τε βρόμος αὐλῶν εὔαδεν ἠδὲ λύκων κλαγγὴ χαροπῶν τε λεόντων οὔρεά τʼ ἠχήεντα καὶ ὑλήεντες ἔναυλοι.
+1	ᾗ	ὅς	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	10	nsubj	_	_
+2	κροτάλων	κρόταλον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+3	τυπάνων	τυπάνω	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	1	dep	_	_
+4	τʼ	τε	CCONJ	C-	_	1	cc	_	_
+5	ἰαχὴ	ἰαχή	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+6	σύν	σύν	ADV	Df	_	10	discourse	_	_
+7	τε	τε	CCONJ	C-	_	10	cc	_	_
+8	βρόμος	βρόμος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	NER=GOD
+9	αὐλῶν	αὐλός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	εὔαδεν	ἁνδάνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+11	ἠδὲ	ἠδέ	CCONJ	C-	_	1	cc	_	_
+12	λύκων	λύκος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+13	κλαγγὴ	κλαγγή	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+14	χαροπῶν	χαροπός	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	13	dep	_	_
+15	τε	τε	CCONJ	C-	_	13	cc	_	_
+16	λεόντων	λέων	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	13	dep	_	_
+17	οὔρεά	ὄρος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	13	conj	_	_
+18	τʼ	τε	CCONJ	C-	_	13	cc	_	_
+19	ἠχήεντα	ἠχήεις	VERB	V-	Aspect=Perf|Case=Nom|Gender=Neut|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	13	dep	_	_
+20	καὶ	καί	CCONJ	C-	_	10	cc	_	_
+21	ὑλήεντες	ὑλήεντες	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	22	amod	_	_
+22	ἔναυλοι	ἔναυλος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	10	conj	_	SpaceAfter=No
+23	.	.	PUNCT	Z	_	10	punct	_	_
+
+# sent_id = 106-4
+# text = καὶ σὺ μὲν οὕτω χαῖρε θεαί θʼ ἅμα πᾶσαι ἀοιδῇ.
+1	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+2	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+3	μὲν	μέν	ADV	Df	_	5	discourse	_	_
+4	οὕτω	οὕτως	ADV	Df	_	5	advmod	_	_
+5	χαῖρε	χαίρω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	θεαί	θεος	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	5	vocative	_	_
+7	θʼ	θ	CCONJ	C-	_	5	cc	_	_
+8	ἅμα	ἅμα	ADV	Df	_	10	advmod	_	_
+9	πᾶσαι	πᾶς	DET	Px	Case=Nom|Gender=Fem|Number=Plur	10	det	_	_
+10	ἀοιδῇ	ἀοιδή	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	Z	_	5	punct	_	_
+

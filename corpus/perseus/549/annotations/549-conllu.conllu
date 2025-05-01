@@ -1,0 +1,60 @@
+# newdoc id = 549
+
+# sent_id = 549-1
+# text = Εἲς Ἀθήναν Παλλάδʼ Ἀθηναίην ἐρυσίπτολιν ἄρχομʼ ἀείδειν, δεινήν, ᾗ σὺν Ἄρηι μέλει πολεμήια ἔργα περθόμεναί τε πόληες ἀϋτή τε πτόλεμοί τε, καί τʼ ἐρρύσατο λαὸν ἰόντα τε νισσόμενόν τε.
+1	Εἲς	Εἲς	ADP	R-	_	2	case	_	_
+2	Ἀθήναν	Ἀθήνα	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	NER=GOD
+3	Παλλάδʼ	παλλάς	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	2	appos	_	NER=PERSON
+4	Ἀθηναίην	Ἀθήνη	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	3	appos	_	NER=GOD
+5	ἐρυσίπτολιν	ἐρυσίπτολις	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	4	appos	_	_
+6	ἄρχομʼ	ἄρχω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+7	ἀείδειν	ἀείδω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	6	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	7	cc	_	_
+9	δεινήν	δεινός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	6	dep	_	_
+11	ᾗ	ὅς	PRON	Pr	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	14	nsubj	_	_
+12	σὺν	σύν	ADP	R-	_	13	case	_	_
+13	Ἄρηι	Ἄρης	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+14	μέλει	μέλει	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	_
+15	πολεμήια	πολεμήϊος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	16	amod	_	_
+16	ἔργα	ἔργον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
+17	περθόμεναί	περθόμεναί	VERB	V-	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	14	conj	_	_
+18	τε	τε	CCONJ	C-	_	14	cc	_	_
+19	πόληες	πόλις	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	14	conj	_	_
+20	ἀϋτή	ἀυτή	DET	Pd	Case=Nom|Gender=Fem|Number=Sing	14	conj	_	_
+21	τε	τε	CCONJ	C-	_	14	cc	_	_
+22	πτόλεμοί	πτόλεμος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	14	conj	_	_
+23	τε	τε	CCONJ	C-	_	14	cc	_	SpaceAfter=No
+24	,	,	PUNCT	Z	_	14	dep	_	_
+25	καί	καί	CCONJ	C-	_	6	dep	_	_
+26	τʼ	τε	CCONJ	C-	_	6	cc	_	_
+27	ἐρρύσατο	ἐρύω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+28	λαὸν	λαός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
+29	ἰόντα	εἶμι	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	27	advcl	_	_
+30	τε	τε	CCONJ	C-	_	29	cc	_	_
+31	νισσόμενόν	νισσόμενός	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	29	conj	_	_
+32	τε	τε	CCONJ	C-	_	27	cc	_	SpaceAfter=No
+33	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = 549-2
+# text = χαῖρε,
+1	χαῖρε	χαίρω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	vocative	_	_
+
+# sent_id = 549-3
+# text = θεά
+1	θεά	θεά	NOUN	Ne	Case=Voc|Gender=Fem|Number=Sing	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 549-4
+# text = ,
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 549-5
+# text = δὸς δʼ ἄμμι τύχην εὐδαιμονίην τε.
+1	δὸς	δίδωμι	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δʼ	δέ	ADV	Df	_	1	discourse	_	_
+3	ἄμμι	ἡμεῖς	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=1|PronType=Prs	1	iobj	_	_
+4	τύχην	τύχη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	εὐδαιμονίην	εὐδαιμονία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
+6	τε	τε	CCONJ	C-	_	4	cc	_	SpaceAfter=No
+7	.	.	PUNCT	Z	_	1	punct	_	_

@@ -1,0 +1,68 @@
+# newdoc id = 2139
+
+# sent_id = 2139-1
+# text = ΜΩΣ.
+1	ΜΩΣ	ΜΩΣ	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+2	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2139-2
+# text = ἔα·
+1	ἔα	ἐάω	INTJ	I-	_	0	ROOT	_	SpaceAfter=No
+2	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2139-3
+# text = τί μοι σημεῖον ἐκ βάτου τόδε, τεράστιόν τε καὶ βροτοῖς ἀπιστία;
+1	τί	τίς	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	8	nsubj	_	_
+2	μοι	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	σημεῖον	σημεῖον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+4	ἐκ	ἐκ	ADP	R-	_	5	case	_	_
+5	βάτου	βάτος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+6	τόδε	ὅδε	DET	Pd	Case=Nom|Gender=Neut|Number=Sing	3	det	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	1	parataxis	_	_
+8	τεράστιόν	τεράστιος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	0	ROOT	_	_
+9	τε	τε	CCONJ	C-	_	8	cc	_	_
+10	καὶ	καί	CCONJ	C-	_	8	cc	_	_
+11	βροτοῖς	βροτός	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	8	conj	_	_
+12	ἀπιστία	ἀπιστία	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+13	;	;	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = 2139-4
+# text = ἄφνω βάτος μὲν καίεται πολλῷ πυρί,
+1	ἄφνω	ἄφνω	ADV	Df	_	4	advmod	_	_
+2	βάτος	βάτος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	μὲν	μέν	ADV	Df	_	4	discourse	_	_
+4	καίεται	καίω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	ROOT	_	_
+5	πολλῷ	πολύς	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	6	amod	_	_
+6	πυρί	πῦρ	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	Z	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	punct	_	_
+
+# sent_id = 2139-5
+# text = αὐτοῦ δὲ χλωρὸν πᾶν μένει τὸ βλαστάνον.
+1	αὐτοῦ	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	dep	_	_
+2	δὲ	δέ	ADV	Df	_	5	discourse	_	_
+3	χλωρὸν	χλωρός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	πᾶν	πᾶς	DET	Px	Case=Nom|Gender=Neut|Number=Sing	3	det	_	_
+5	μένει	μένω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	τὸ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	_
+7	βλαστάνον	βλαστάνος	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = 2139-6
+# text = τί δή; προελθὼν ὄψομαι τεράστιον μέγιστον·
+1	τί	τίς	PRON	Pi	Case=Nom|Gender=Neut|Number=Sing|PronType=Int	0	ROOT	_	_
+2	δή	δή	ADV	Df	_	1	discourse	_	SpaceAfter=No
+3	;	;	PUNCT	Z	PronType=Int	5	advmod	_	_
+4	προελθὼν	προέρχομαι	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	_	_
+5	ὄψομαι	ὁράω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	1	parataxis	_	_
+6	τεράστιον	τεράστιος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	μέγιστον	μέγας	ADJ	A-	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	6	amod	_	SpaceAfter=No
+8	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2139-7
+# text = οὐ γὰρ πίστιν ἀνθρώποις φέρει.
+1	οὐ	οὐ	ADV	Df	Polarity=Neg	5	advmod	_	_
+2	γὰρ	γάρ	ADV	Df	_	5	discourse	_	_
+3	πίστιν	πίστις	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+4	ἀνθρώποις	ἄνθρωπος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	_
+5	φέρει	φέρω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+6	.	.	PUNCT	Z	_	5	punct	_	_

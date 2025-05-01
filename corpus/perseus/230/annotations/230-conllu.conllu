@@ -1,0 +1,85 @@
+# newdoc id = 230
+
+# sent_id = 230-1
+# text = Εἲς Ἄρτεμιν Ἄρτεμιν ὕμνει, Μοῦσα, κασιγνήτην Ἑκάτοιο.
+1	Εἲς	Εἲς	ADP	R-	_	2	case	_	_
+2	Ἄρτεμιν	Ἄρτεμις	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	NER=GOD
+3	Ἄρτεμιν	Ἄρτεμις	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	NER=GOD
+4	ὕμνει	ὑμνέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+5	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	2	appos	_	_
+6	Μοῦσα	Μοῦσα	NOUN	Nb	Case=Voc|Gender=Fem|Number=Sing	4	vocative	_	NER=GOD|SpaceAfter=No
+7	,	,	PUNCT	Z	_	4	parataxis	_	_
+8	κασιγνήτην	κασιγνήτη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	appos	_	_
+9	Ἑκάτοιο	ἕκατος	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = 230-2
+# text = παρθένον ἰοχέαιραν, ὁμότροφον Ἀπόλλωνος, ἥθʼ ἵππους ἄρσασα βαθυσχοίνοιο Μέλητος ῥίμφα διὰ Σμύρνης παγχρύσεον ἅρμα διώκει ἐς Κλάρον ἀμπελόεσσαν, ὅθʼ ἀργυρότοξος Ἀπόλλων ἧσται μιμνάζων ἑκατηβόλον ἰοχέαιραν.
+1	παρθένον	παρθένος	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	17	vocative	_	_
+2	ἰοχέαιραν	ἰοχέαιρα	PROPN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	appos	_	NER=GOD|SpaceAfter=No
+3	,	,	PUNCT	Z	_	1	cc	_	_
+4	ὁμότροφον	ὁμότροφος	ADJ	A-	Case=Acc|Degree=Pos|Number=Sing	1	conj	_	_
+5	Ἀπόλλωνος	Ἀπόλλων	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	iobj	_	NER=GOD|SpaceAfter=No
+6	,	,	PUNCT	Z	_	17	obl	_	_
+7	ἥθʼ	ἥθʼ	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	_
+8	ἵππους	ἵππος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+9	ἄρσασα	ἄρδω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	17	advcl	_	_
+10	βαθυσχοίνοιο	βαθυσχοίνον	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	Μέλητος	Μέλητος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	NER=PERSON
+12	ῥίμφα	ῥίμφα	ADV	Df	_	17	advmod	_	_
+13	διὰ	διά	ADP	R-	_	14	case	_	_
+14	Σμύρνης	Σμύρνα	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+15	παγχρύσεον	παγχρύσεος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	ἅρμα	ἅρμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+17	διώκει	διώκω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+18	ἐς	εἰς	ADP	R-	_	19	case	_	_
+19	Κλάρον	Κλάρος	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+20	ἀμπελόεσσαν	ἀμπελόεις	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+22	ὅθʼ	ὅτι	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	25	mark	_	_
+23	ἀργυρότοξος	ἀργυρότοξος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	Ἀπόλλων	Ἀπόλλων	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	NER=GOD
+25	ἧσται	ἧμαι	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	21	acl	_	_
+26	μιμνάζων	μιμνάζω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	25	advcl	_	_
+27	ἑκατηβόλον	ἑκατηβόλος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	ἰοχέαιραν	ἰοχέαιρα	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	SpaceAfter=No
+29	.	.	PUNCT	Z	_	17	punct	_	_
+
+# sent_id = 230-3
+# text = καὶ σὺ μὲν οὕτω χαῖρε θεαί θʼ ἅμα πᾶσαι ἀοιδῇ·
+1	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+2	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+3	μὲν	μέν	ADV	Df	_	5	discourse	_	_
+4	οὕτω	οὕτως	ADV	Df	_	5	advmod	_	_
+5	χαῖρε	χαίρω	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	θεαί	θεος	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	5	vocative	_	_
+7	θʼ	θ	CCONJ	C-	_	5	cc	_	_
+8	ἅμα	ἅμα	ADV	Df	_	10	amod	_	_
+9	πᾶσαι	πᾶς	DET	Px	Case=Nom|Gender=Fem|Number=Plur	10	det	_	_
+10	ἀοιδῇ	ἀοιδή	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+11	·	·	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = 230-4
+# text = αὐτὰρ ἐγώ σε πρῶτα καὶ ἐκ σέθεν ἄρχομʼ ἀείδειν,
+1	αὐτὰρ	ἀτάρ	ADV	Df	_	8	discourse	_	_
+2	ἐγώ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	σε	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+4	πρῶτα	πρῶτος	ADJ	Mo	Case=Acc|Gender=Neut|Number=Plur	8	advmod	_	_
+5	καὶ	καί	CCONJ	C-	_	8	dep	_	_
+6	ἐκ	ἐκ	ADP	R-	_	7	case	_	_
+7	σέθεν	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	9	obl	_	_
+8	ἄρχομʼ	ἄρχω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+9	ἀείδειν	ἀείδω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = 230-5
+# text = σεῦ δʼ ἐγὼ ἀρξάμενος μεταβήσομαι ἄλλον ἐς ὕμνον.
+1	σεῦ	σύ	PRON	Pp	Case=Gen|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+2	δʼ	δέ	ADV	Df	_	5	discourse	_	_
+3	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	ἀρξάμενος	ἄρχω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	5	advcl	_	_
+5	μεταβήσομαι	μεταβήσομαι	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+6	ἄλλον	ἄλλος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	ἐς	εἰς	ADP	R-	_	8	case	_	_
+8	ὕμνον	ὕμνος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	Z	_	5	punct	_	_

@@ -1,0 +1,80 @@
+# newdoc id = 2171
+
+# sent_id = 2171-1
+# text = ΦΙΛΩΝΟΣ ΠΕΡΙ ΤΟΥ ΙΩΣΗΦ
+1	ΦΙΛΩΝΟΣ	ΦΙΛΩΝΟΣ	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	NER=PERSON
+2	ΠΕΡΙ	περί	ADP	R-	_	4	case	_	_
+3	ΤΟΥ	ΤΟΥ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	ΙΩΣΗΦ	ΙΩΣΗΦ	PROPN	Ne	_	1	nmod	_	NER=LOC|SpaceAfter=No
+
+# sent_id = 2171-2
+# text = · ΑΠΟ ΤΗΣ ΑΥΤΗΣ ΓΡΑΦΗΣ Μαρτυρεῖ δὲ ταῖς ἱεραῖς βίβλοις καὶ Φίλων ἐν τῇ ιδ᾽ τῶν Περὶ Ἱεροσόλυμα, λέγων οὕτως· Τοῖσιν ἕδος μακαριστὸν ὅλης μέγας ἔκτισεν ἄκτωρ ὕψιστος καὶ πρόσθεν ἀφ᾽ Ἁβραάμοιο καὶ Ἰσὰκ Ἰακὼβ εὐτέκνοιό θ᾽ ὅθεν Ἰωσήφ, ὃς ὀνείρων θεσπιστὴς σκηπτοῦχος ἐν Αἰγύπτοιο θρόνοισι, δινεύσας λαθραῖα χρόνου πλημμυρίδι μοίρης, καὶ τὰ ἑξῆς.
+1	·	·	PUNCT	Z	_	6	iobj	_	NER=LOC
+2	ΑΠΟ	ΑΠΟ	ADP	R-	_	5	case	_	_
+3	ΤΗΣ	ΤΗΣ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+4	ΑΥΤΗΣ	ΑΥΤΗΣ	DET	Pd	Case=Dat|Gender=Fem|Number=Sing	5	det	_	_
+5	ΓΡΑΦΗΣ	ΓΡΑΦΗΣ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	iobj	_	_
+6	Μαρτυρεῖ	Μαρτυρέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+7	δὲ	δέ	ADV	Df	_	6	discourse	_	_
+8	ταῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	10	det	_	_
+9	ἱεραῖς	ἱεραί	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	βίβλοις	βύβλος	NOUN	Nb	Case=Dat|Gender=Fem|Number=Plur	6	iobj	_	_
+11	καὶ	καί	CCONJ	C-	_	12	cc	_	_
+12	Φίλων	Φίλος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	NER=PERSON
+13	ἐν	ἐν	ADP	R-	_	15	case	_	_
+14	τῇ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	ιδ᾽	ιδ᾽	NUM	Ne	Case=Dat|Gender=Fem|Number=Sing	12	appos	_	_
+16	τῶν	ὁ	DET	S-	Case=Gen|Definite=Def|Number=Plur|PronType=Dem	18	det	_	_
+17	Περὶ	περί	ADP	R-	_	18	case	_	_
+18	Ἱεροσόλυμα	Ἱεροσόλυμα	PROPN	Ne	Case=Acc|Gender=Neut|Number=Sing	15	nmod	_	NER=LOC|SpaceAfter=No
+19	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	6	punct	_	_
+20	λέγων	λέγω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	6	advcl	_	_
+21	οὕτως	οὕτως	ADV	Df	_	20	advmod	_	SpaceAfter=No
+22	·	·	PUNCT	Z	_	6	punct	_	_
+23	Τοῖσιν	τοῖσις	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	28	obl	_	_
+24	ἕδος	ἕδος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	28	obj	_	_
+25	μακαριστὸν	μακαριστός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+26	ὅλης	ὅλος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+27	μέγας	μέγας	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+28	ἔκτισεν	κτίζω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	acl	_	_
+29	ἄκτωρ	ἄκτωρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	28	nsubj	_	_
+30	ὕψιστος	ὕψιστος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	29	appos	_	_
+31	καὶ	καί	ADV	Df	_	32	advmod	_	_
+32	πρόσθεν	πρόσθεν	ADV	Df	_	28	advmod	_	_
+33	ἀφ᾽	ἀφ᾽	ADP	R-	_	34	case	_	_
+34	Ἁβραάμοιο	Ἀβραάμοιο	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	NER=PERSON
+35	καὶ	καί	CCONJ	C-	_	34	cc	_	_
+36	Ἰσὰκ	Ἰσὰκ	PROPN	Ne	_	34	conj	_	NER=PERSON
+37	Ἰακὼβ	Ἰακώβ	PROPN	Ne	_	36	nmod	_	NER=PERSON
+38	εὐτέκνοιό	εὐτέκνοιόν	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+39	θ᾽	θ᾽	CCONJ	C-	_	28	cc	_	_
+40	ὅθεν	ὅθεν	ADV	Dq	PronType=Rel	41	orphan	_	_
+41	Ἰωσήφ	Ἰωσήφ	PROPN	Ne	_	28	conj	_	NER=PERSON|SpaceAfter=No
+42	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	28	dep	_	_
+43	ὃς	ὅς	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	45	nsubj	_	_
+44	ὀνείρων	ὄνειρος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	45	nmod	_	_
+45	θεσπιστὴς	θεσπιστής	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	42	appos	_	_
+46	σκηπτοῦχος	σκηπτοῦχος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	45	appos	_	_
+47	ἐν	ἐν	ADP	R-	_	49	case	_	_
+48	Αἰγύπτοιο	Αἴγυπτος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	49	nmod	_	_
+49	θρόνοισι	θρόνος	NOUN	Nb	Case=Dat|Gender=Masc|Number=Plur	46	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	Z	_	28	dep	_	_
+51	δινεύσας	δινεύω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	28	advcl	_	_
+52	λαθραῖα	λαθραῖος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	51	advmod	_	_
+53	χρόνου	χρόνος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	54	nmod	_	_
+54	πλημμυρίδι	πλημμυρίς	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	51	obl	_	_
+55	μοίρης	μοῖρα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	54	nmod	_	SpaceAfter=No
+56	,	,	PUNCT	Z	_	6	punct	_	_
+57	καὶ	καί	CCONJ	C-	_	6	cc	_	_
+58	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	59	det	_	_
+59	ἑξῆς	ἑξῆς	ADV	Df	_	6	conj	_	SpaceAfter=No
+60	.	.	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = 2171-3
+# text = ταῦτα καὶ περὶ τοῦ Ἰωσήφ.
+1	ταῦτα	οὗτος	ADJ	Pd	Case=Nom|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	καὶ	καί	ADV	Df	_	1	advmod	_	_
+3	περὶ	περί	ADP	R-	_	5	case	_	_
+4	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Ἰωσήφ	Ἰωσήφ	PROPN	Ne	_	1	obl	_	NER=PERSON|SpaceAfter=No
+6	.	.	PUNCT	Z	_	1	punct	_	_

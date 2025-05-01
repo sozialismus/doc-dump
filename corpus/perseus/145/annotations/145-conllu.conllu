@@ -1,0 +1,40 @@
+# newdoc id = 145
+
+# sent_id = 145-1
+# text = Εἲς Ὕπατον Κρονίδην Ζῆνα θεῶν τὸν ἄριστον ἀείσομαι ἠδὲ μέγιστον, εὐρύοπα, κρείοντα, τελεσφόρον, ὅστε Θέμιστι ἐγκλιδὸν ἑζομένῃ πυκινοὺς ὀάρους ὀαρίζει.
+1	Εἲς	Εἲς	ADP	R-	_	2	case	_	_
+2	Ὕπατον	Ὕπατος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	Κρονίδην	Κρονίδης	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	NER=GOD
+4	Ζῆνα	Ζεύς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	NER=GOD
+5	θεῶν	θεός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	ἄριστον	ἀγαθός	ADJ	A-	Case=Acc|Degree=Sup|Gender=Masc|Number=Sing	4	nmod	_	_
+8	ἀείσομαι	ἀείδω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+9	ἠδὲ	ἠδέ	CCONJ	C-	_	4	cc	_	_
+10	μέγιστον	μέγας	ADJ	A-	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	8	dep	_	_
+12	εὐρύοπα	εὐρύοπα	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	8	cc	_	_
+14	κρείοντα	κρείω	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+15	,	,	PUNCT	Z	_	4	cc	_	_
+16	τελεσφόρον	τελεσφόρος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+17	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	8	dep	_	_
+18	ὅστε	ὅστε	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	24	nsubj	_	_
+19	Θέμιστι	θέμις	PROPN	Ne	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
+20	ἐγκλιδὸν	ἐγκλιδόν	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	advmod	_	_
+21	ἑζομένῃ	ἑζομένῃ	VERB	V-	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	24	advcl	_	_
+22	πυκινοὺς	πυκνός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	23	amod	_	_
+23	ὀάρους	ὄαρος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	24	obj	_	_
+24	ὀαρίζει	ὀαρίζω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	SpaceAfter=No
+25	.	.	PUNCT	Z	_	8	punct	_	_
+
+# sent_id = 145-2
+# text = ἵληθʼ, εὐρύοπα Κρονίδη, κύδιστε μέγιστε.
+1	ἵληθʼ	ἵλημι	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	iobj	_	_
+3	εὐρύοπα	εὐρύοπα	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	Κρονίδη	Κρονίδης	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	NER=GOD|SpaceAfter=No
+5	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	1	dep	_	_
+6	κύδιστε	κύδιστος	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	1	vocative	_	_
+7	μέγιστε	μέγας	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	Z	_	1	punct	_	_

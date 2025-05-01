@@ -1,0 +1,98 @@
+# newdoc id = 1082
+# sent_id = 1082-1
+# text = Μενεκράτης Ζεὺς Φιλίππῳ χαίρειν.
+1	Μενεκράτης	Μενεκράτης	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	NER=PERSON
+2	Ζεὺς	Ζεύς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	1	appos	_	NER=GOD
+3	Φιλίππῳ	Φίλιππος	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	4	iobj	_	NER=PERSON
+4	χαίρειν	χαίρω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	ROOT	_	SpaceAfter=No
+5	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = 1082-2
+# text = Σὺ μὲν Μακεδονίας βασιλεύεις,
+1	Σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	μὲν	μέν	ADV	Df	_	4	discourse	_	_
+3	Μακεδονίας	Μακεδονία	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	4	iobj	_	NER=LOC
+4	βασιλεύεις	βασιλεύω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = 1082-3
+# text = ἐγὼ δὲ ἰατρικῆς
+1	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	δὲ	δέ	ADV	Df	_	3	discourse	_	_
+3	ἰατρικῆς	ἰατρικός	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
+
+# sent_id = 1082-4
+# text = καὶ
+1	καὶ	καί	CCONJ	C-	_	0	ROOT	_	_
+
+# sent_id = 1082-5
+# text = σὺ μὲν ὑγιαίνοντας δύνασαι, ὅταν βουληθῇς, ἀπολ·
+1	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	μὲν	μέν	ADV	Df	_	4	discourse	_	_
+3	ὑγιαίνοντας	ὑγιαίνω	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	dep	_	_
+4	δύνασαι	δύναμαι	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	4	xcomp	_	_
+6	ὅταν	ὅταν	ADV	Dq	PronType=Rel	7	advmod	_	_
+7	βουληθῇς	βούλομαι	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	Z	_	4	xcomp	_	_
+9	ἀπολ	ἀπολ	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	4	xcomp	_	SpaceAfter=No
+10	·	·	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = 1082-6
+# text = λύναι, ἐγὼ δὲ τοὺς νοσοῦντας σώζειν καὶ τοὺς εὐρώ στους ἀνόσους, οἳ ἂν ἐμοὶ πείθωνται, παρέχειν μέχρι γήρως ζῶντας.
+1	λύναι	λύνος	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	xcomp	_	NER=NORP|SpaceAfter=No
+2	,	,	PUNCT	Z	_	19	iobj	_	_
+3	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	δὲ	δέ	ADV	Df	_	7	discourse	_	_
+5	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	νοσοῦντας	νοσέω	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	7	obj	_	_
+7	σώζειν	σῴζω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	2	conj	_	_
+8	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+9	τοὺς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	10	det	_	_
+10	εὐρώ	εὐρώ	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	στους	στους	VERB	V-	Aspect=Perf|Case=Acc|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	fixed	_	_
+12	ἀνόσους	ἄνοσος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	2	dep	_	_
+14	οἳ	ὁ	PRON	Pr	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	17	nsubj	_	_
+15	ἂν	ἄν	ADV	Df	_	17	advmod	_	_
+16	ἐμοὶ	ἐγώ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	πείθωνται	πείθω	VERB	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	acl	_	SpaceAfter=No
+18	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Plur	19	advmod	_	_
+19	παρέχειν	παρέχω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	0	ROOT	_	_
+20	μέχρι	μέχρι	ADP	R-	_	21	case	_	_
+21	γήρως	γῆρας	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	22	obl	_	_
+22	ζῶντας	ζῶ	VERB	V-	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	19	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	Z	_	19	punct	_	_
+
+# sent_id = 1082-7
+# text = τοιγαροῦν σὲ μὲν Μακεδόνες δορυ φοροῦσιν,
+1	τοιγαροῦν	τοιγαροῦν	ADV	Df	_	6	discourse	_	_
+2	σὲ	σύ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=2|PronType=Prs	6	obj	_	_
+3	μὲν	μέν	ADV	Df	_	6	discourse	_	_
+4	Μακεδόνες	Μακεδών	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	NER=NORP
+5	δορυ	δορυ	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+6	φοροῦσιν	φορέω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	6	punct	_	_
+
+# sent_id = 1082-8
+# text = ἐμὲ δὲ καὶ οἱ θεοὶ μέλλοντες ἔσεσθαι·
+1	ἐμὲ	ἐγώ	PRON	Pp	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	5	orphan	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	καὶ	καί	ADV	Df	_	5	advmod	_	_
+4	οἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	θεοὶ	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	_
+6	μέλλοντες	μέλλω	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+7	ἔσεσθαι	εἰμί	AUX	V-	Tense=Fut|VerbForm=Inf|Voice=Mid	6	xcomp	_	SpaceAfter=No
+8	·	·	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = 1082-9
+# text = Ζεὐς ΝΤΤΙΥΙΕγ γὰρ ἐγὼ αὐτοῖς βίον παρέχω.
+1	Ζεὐς	Ζεὐςς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	7	vocative	_	NER=GOD
+2	ΝΤΤΙΥΙΕγ	ΝΤΤΙΥΙΕγ	ADV	Df	_	7	discourse	_	_
+3	γὰρ	γάρ	ADV	Df	_	7	discourse	_	_
+4	ἐγὼ	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	αὐτοῖς	αὐτός	PRON	Pp	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	iobj	_	_
+6	βίον	βίος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+7	παρέχω	παρέχω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+8	.	.	PUNCT	Z	_	7	punct	_	_
+

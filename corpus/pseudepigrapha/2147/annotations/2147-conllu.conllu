@@ -1,0 +1,105 @@
+# newdoc id = 2147
+
+# sent_id = 2147-1
+# text = ΣΚΟΠΟΣ κράτιστε Μωσῆ
+1	ΣΚΟΠΟΣ	ΣΚΟΠΟΣ	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	κράτιστε	κράτιστος	ADJ	A-	Case=Voc|Degree=Sup|Gender=Masc|Number=Sing	3	amod	_	_
+3	Μωσῆ	Μωσῆ	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	1	appos	_	NER=PERSON|SpaceAfter=No
+
+# sent_id = 2147-2
+# text = ,
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2147-3
+# text = πρόσσχες, οἷον εὕρομεν τόπον πρὸς αὐτῇ τῇδέ γ᾽ εὐαεῖ νάπῃ.
+1	πρόσσχες	προσέχω	VERB	V-	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	advmod	_	_
+3	οἷον	οἷος	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	5	det	_	_
+4	εὕρομεν	εὑρίσκω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
+5	τόπον	τόπος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	πρὸς	πρός	ADP	R-	_	11	case	_	_
+7	αὐτῇ	αὐτός	DET	Pd	Case=Dat|Gender=Fem|Number=Sing	11	det	_	_
+8	τῇδέ	ὅδε	DET	Pd	Case=Dat|Gender=Fem|Number=Sing	11	det	_	_
+9	γ᾽	γ᾽	ADV	Df	_	11	dep	_	_
+10	εὐαεῖ	εὐαεῖ	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	νάπῃ	νάπη	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2147-4
+# text = ἔστιν γάρ, ὥς που καὶ σὺ τυγχάνεις ὁρῶν,
+1	ἔστιν	εἰμί	AUX	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	γάρ	γάρ	ADV	Df	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	1	nsubj	_	_
+4	ὥς	ὡς	ADV	Dq	PronType=Rel	8	advmod	_	_
+5	που	ποῦ	ADV	Df	_	8	advmod	_	_
+6	καὶ	καί	ADV	Df	_	7	advmod	_	_
+7	σὺ	σύ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
+8	τυγχάνεις	τυγχάνω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
+9	ὁρῶν	ὁράω	VERB	V-	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	Z	_	1	advmod	_	_
+
+# sent_id = 2147-5
+# text = ἐκεῖ·
+1	ἐκεῖ	ἐκεῖ	ADV	Df	_	0	ROOT	_	SpaceAfter=No
+2	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2147-6
+# text = τόθεν δὲ φέγγος ἐξέλαμψέ νυν κατ᾽ εὐφρόνης σημεῖον ὡς στῦλος πυρός.
+1	τόθεν	τόθεν	ADV	Df	_	4	advmod	_	_
+2	δὲ	δέ	ADV	Df	_	4	discourse	_	_
+3	φέγγος	φέγγος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	ἐξέλαμψέ	ἐξέλαμψέ	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	νυν	νυν	ADV	Df	_	4	advmod	_	_
+6	κατ᾽	κατ᾽	ADP	R-	_	8	case	_	_
+7	εὐφρόνης	εὐφρόνη	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+8	σημεῖον	σημεῖον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
+9	ὡς	ὡς	ADV	Df	_	4	advcl	_	_
+10	στῦλος	στῦλος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	πυρός	πῦρ	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = 2147-7
+# text = ἐνταῦθα λειμῶν᾽ εὕρομεν κατάσκιον ὑγράς τε λιβάδας·
+1	ἐνταῦθα	ἐνταῦθα	ADV	Df	_	3	advmod	_	_
+2	λειμῶν᾽	λειμῶν᾽	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+3	εὕρομεν	εὑρίσκω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	κατάσκιον	κατάσκιος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	xcomp	_	_
+5	ὑγράς	ὑγρά	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	τε	τε	CCONJ	C-	_	3	cc	_	_
+7	λιβάδας	λιβάς	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+8	·	·	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 2147-8
+# text = δαψιλὴς χῶρος βαθύς, πηγὰς ἀφύσσων δώδεκ᾽ ἐκ μιᾶς πέτρας
+1	δαψιλὴς	δαψιλής	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	χῶρος	χῶρος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+3	βαθύς	βαθύς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	Z	_	0	ROOT	_	_
+5	πηγὰς	πηγή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+6	ἀφύσσων	ἀφύσσω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	_
+7	δώδεκ᾽	δώδεκ᾽	NUM	Ma	Case=Acc|Gender=Fem|Number=Plur	6	dep	_	_
+8	ἐκ	ἐκ	ADP	R-	_	10	case	_	_
+9	μιᾶς	εἷς	NUM	Ma	Case=Gen|Gender=Fem|Number=Sing	10	nummod	_	_
+10	πέτρας	πέτρα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+
+# sent_id = 2147-9
+# text = , στελέχη δ᾽ ἐρυμνὰ πολλὰ φοινίκων πέλει ἔγκαρπα, δεκάκις ἑπτά, καὶ περίρρυτος πέφυκε χλοίη θρέμμασιν χορτάσματα.
+1	,	,	PUNCT	Z	_	0	ROOT	_	_
+2	στελέχη	στέλεχος	NOUN	Nb	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+3	δ᾽	δ᾽	ADV	Df	_	7	discourse	_	_
+4	ἐρυμνὰ	ἐρυμνός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	5	amod	_	_
+5	πολλὰ	πολύς	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	2	amod	_	_
+6	φοινίκων	φοῖνιξ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	NER=NORP
+7	πέλει	πέλω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	ἔγκαρπα	ἔγκαρπον	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	7	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	7	dep	_	_
+10	δεκάκις	δεκάκις	ADV	Df	_	11	advmod	_	_
+11	ἑπτά	ἑπτά	NUM	Ma	_	9	nummod	_	SpaceAfter=No
+12	,	,	PUNCT	Z	_	7	dep	_	_
+13	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+14	περίρρυτος	περίρρυτος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Sing	15	xcomp	_	_
+15	πέφυκε	φύω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	acl	_	_
+16	χλοίη	χλέω	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	14	iobj	_	_
+17	θρέμμασιν	θρέμμα	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	14	iobj	_	_
+18	χορτάσματα	χόρτασμα	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No
+19	.	.	PUNCT	Z	_	7	punct	_	_

@@ -1,0 +1,137 @@
+# newdoc id = 1877
+
+# sent_id = 1877-1
+# text = ΕΚ ΤΩΝ ΑΝΝΟΥΒΙΩΝΟΣ.
+1	ΕΚ	ΕΚ	ADP	R-	_	3	case	_	_
+2	ΤΩΝ	ΤΩΝ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	ΑΝΝΟΥΒΙΩΝΟΣ	ΑΝΝΟΥΒΙΩΝΟΣ	PROPN	Nb	Case=Gen|Gender=Masc|Number=Sing	0	ROOT	_	NER=PERSON|SpaceAfter=No
+4	.	.	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 1877-2
+# text = Περὶ μοίρας ὡροσκοπούσης ὡς Ἀννουβίων ἐν τοῖς ἐλεγείοις.
+1	Περὶ	περί	ADP	R-	_	2	case	_	_
+2	μοίρας	μοῖρα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	0	ROOT	_	_
+3	ὡροσκοπούσης	ὡροσκοπούσης	VERB	V-	Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	acl	_	_
+4	ὡς	ὡς	ADV	Df	_	3	advmod	_	_
+5	Ἀννουβίων	Ἀννουβῖος	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	NER=PERSON
+6	ἐν	ἐν	ADP	R-	_	8	case	_	_
+7	τοῖς	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	8	det	_	_
+8	ἐλεγείοις	ἐλεγεῖος	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 1877-3
+# text = Ὡρονόμον δὲ μάθοις ὥρην ἄτερ ἀστράσιν ἄλλοις σκεπτόμενος Μήνην καὶ μέγαν Ἠέλιον·
+1	Ὡρονόμον	Ὡρονόμος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	xcomp	_	NER=GOD
+2	δὲ	δέ	ADV	Df	_	3	discourse	_	_
+3	μάθοις	μανθάνω	VERB	V-	Aspect=Perf|Mood=Opt|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+4	ὥρην	ὥρα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	ἄτερ	ἄτερ	ADP	R-	_	6	case	_	_
+6	ἀστράσιν	ἀστράσις	NOUN	Nb	Case=Dat|Gender=Neut|Number=Plur	8	obl	_	_
+7	ἄλλοις	ἄλλος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_
+8	σκεπτόμενος	σκοπέω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	3	advcl	_	_
+9	Μήνην	Μήνη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	καὶ	καί	CCONJ	C-	_	9	cc	_	_
+11	μέγαν	μέγας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	Ἠέλιον	ἥλιος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+13	·	·	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 1877-4
+# text = ἡμερινῇ γενέσει μὲν ἀπʼ Ἠελίοιο,
+1	ἡμερινῇ	ἡμερινός	ADJ	A-	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	γενέσει	γένεσις	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+3	μὲν	μέν	ADV	Df	_	2	discourse	_	_
+4	ἀπʼ	ἀπό	ADP	R-	_	5	case	_	_
+5	Ἠελίοιο	ἥλιος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 1877-5
+# text = νοήσας οἴκου δεσπόζων ἔνθα βέβηκε θεός·
+1	νοήσας	νοέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	0	ROOT	_	_
+2	οἴκου	οἶκος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	3	iobj	_	_
+3	δεσπόζων	δεσπόζω	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	xcomp	_	_
+4	ἔνθα	ἔνθα	ADV	Dq	PronType=Rel	5	advmod	_	_
+5	βέβηκε	βαίνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl	_	_
+6	θεός	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1877-6
+# text = κεῖθεν δὲ στοιχηδὸν ἀριθμηθήμεναι ἄστρα μέχρι Σεληναίης ἀστέρος ἱσταμένου·
+1	κεῖθεν	ἐκεῖθεν	ADV	Df	_	4	advmod	_	_
+2	δὲ	δέ	ADV	Df	_	4	discourse	_	_
+3	στοιχηδὸν	στοιχηδόν	ADV	Df	_	4	dep	_	_
+4	ἀριθμηθήμεναι	ἀριθμέω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Pass	0	ROOT	_	_
+5	ἄστρα	ἄστρον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+6	μέχρι	μέχρι	ADP	R-	_	7	case	_	_
+7	Σεληναίης	Σεληναῖος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	ἀστέρος	ἀστήρ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	ἱσταμένου	ἵστημι	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	4	advcl	_	SpaceAfter=No
+10	·	·	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = 1877-7
+# text = πάντα δʼ ἀπʼ Ἠελίοιο διέκβαλε τοῦτον ἀριθμόν,
+1	πάντα	πᾶς	DET	Px	Case=Acc|Gender=Neut|Number=Plur	7	det	_	_
+2	δʼ	δέ	ADV	Df	_	5	discourse	_	_
+3	ἀπʼ	ἀπό	ADP	R-	_	4	case	_	_
+4	Ἠελίοιο	ἥλιος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
+5	διέκβαλε	διέκβαλω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	τοῦτον	οὗτος	DET	Pd	Case=Acc|Gender=Masc|Number=Sing	7	det	_	_
+7	ἀριθμόν	ἀριθμός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+
+# sent_id = 1877-8
+# text = εἰς ὅ τι δʼ ἂν λήξῃ,
+1	εἰς	εἰς	ADP	R-	_	2	case	_	_
+2	ὅ	ὅς	PRON	Pr	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	6	obl	_	_
+3	τι	τίς	DET	Px	Case=Acc|Gender=Neut|Number=Sing	2	det	_	_
+4	δʼ	δέ	ADV	Df	_	6	discourse	_	_
+5	ἂν	ἄν	ADV	Df	_	6	advmod	_	_
+6	λήξῃ	λήγω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	acl	_	SpaceAfter=No
+7	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+
+# sent_id = 1877-9
+# text = κεῖθι καὶ ὡρονόμος.
+1	κεῖθι	ἐκεῖθι	ADV	Df	_	0	ROOT	_	_
+2	καὶ	καί	ADV	Df	_	3	advmod	_	_
+3	ὡρονόμος	ὡρονόμος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1877-10
+# text = χρὴ δὲ Σεληναίης προτέρης ἀνελέσθαι ἀριθμόν,
+1	χρὴ	χρή	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	Σεληναίης	Σεληναῖος	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	5	iobj	_	_
+4	προτέρης	πρότερος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+5	ἀνελέσθαι	ἀναιρέω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Mid	1	ccomp	_	_
+6	ἀριθμόν	ἀριθμός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 1877-11
+# text = ὥρην νυκτερινὴν σκεπτόμενον θέματος
+1	ὥρην	ὥρα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+2	νυκτερινὴν	νυκτερινός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	1	amod	_	_
+3	σκεπτόμενον	σκεπτόμενος	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	0	ROOT	_	_
+4	θέματος	θέματος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	3	iobj	_	SpaceAfter=No
+
+# sent_id = 1877-12
+# text = ·
+1	·	·	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 1877-13
+# text = εἰ δέ κεν Ἠέλιος ὀλίγας μοίρας ἔχῃ ἄστρων, χρὴ τετράγωνά θʼ ὁρᾶν καὶ διάμετρα τόπων.
+1	εἰ	εἰ	SCONJ	G-	_	7	mark	_	_
+2	δέ	δέ	ADV	Df	_	10	discourse	_	_
+3	κεν	ἄν	ADV	Df	_	7	advmod	_	_
+4	Ἠέλιος	ἥλιος	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	ὀλίγας	ὀλίγος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	6	amod	_	_
+6	μοίρας	μοῖρα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+7	ἔχῃ	ἔχω	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+8	ἄστρων	ἄστρον	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	13	obl	_	_
+10	χρὴ	χρή	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+11	τετράγωνά	τετράγων	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	13	obj	_	_
+12	θʼ	θ	CCONJ	C-	_	13	cc	_	_
+13	ὁρᾶν	ὁράω	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	10	ccomp	_	_
+14	καὶ	καί	CCONJ	C-	_	11	cc	_	_
+15	διάμετρα	διάμετρον	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	11	conj	_	_
+16	τόπων	τόπος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	Z	_	10	punct	_	_

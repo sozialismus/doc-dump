@@ -1,0 +1,65 @@
+# newdoc id = 2220
+
+# sent_id = 2220-1
+# text = äü
+1	äü	äü	CCONJ	V-	_	0	ROOT	_	_
+
+# sent_id = 2220-2
+# text = διὸ καὶ κέκραγεν·
+1	διὸ	διό	ADV	Df	_	3	advmod	_	_
+2	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+3	κέκραγεν	κράζω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+4	·	·	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 2220-3
+# text = ἔλεον θέλω καὶ οὐ θυσίαν·
+1	ἔλεον	ἔλεος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+2	θέλω	ἐθέλω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+3	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+4	οὐ	οὐ	ADV	Df	Polarity=Neg	5	advmod	_	_
+5	θυσίαν	θυσία	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+6	·	·	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 2220-4
+# text = οὐ βούλομαι τὸν θάνατον τοῦ ἁμαρτωλοῦ, ἀλλὰ τὴν μετάνοιαν·
+1	οὐ	οὐ	ADV	Df	Polarity=Neg	2	dep	_	_
+2	βούλομαι	βούλομαι	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+3	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	θάνατον	θάνατος	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	ἁμαρτωλοῦ	ἁμαρτωλός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	Z	_	2	parataxis	_	_
+8	ἀλλὰ	ἀλλά	CCONJ	C-	_	7	cc	_	_
+9	τὴν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	μετάνοιαν	μετάνοια	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	·	·	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 2220-5
+# text = κἂν ὦσιν αἱ ἁμαρτίαι ὑμῶν ὡς φοινικοῦν ἔριον, ὡς χιόνα λευκανῶ,
+1	κἂν	ἐάν	SCONJ	G-	_	6	mark	_	_
+2	ὦσιν	εἰμί	AUX	V-	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	αἱ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	ἁμαρτίαι	ἁμαρτία	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+5	ὑμῶν	ὑμεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Prs	4	det	_	_
+6	ὡς	ὡς	ADV	Df	_	9	advcl	_	_
+7	φοινικοῦν	φοινίκεος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	ἔριον	ἔριον	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	Z	_	12	advmod	_	_
+10	ὡς	ὡς	ADV	Df	_	12	advcl	_	_
+11	χιόνα	χιών	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	λευκανῶ	λευκανῶ	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	12	punct	_	_
+
+# sent_id = 2220-6
+# text = κἂν μελάντερον τοῦ σκότους, ὡς ἔριον λευκὸν ἐκνίψας ποιήσω.
+1	κἂν	ἐάν	SCONJ	G-	_	2	mark	_	_
+2	μελάντερον	μέλας	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	5	ccomp	_	_
+3	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Dem	4	det	_	_
+4	σκότους	σκότος	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	2	iobj	_	SpaceAfter=No
+5	,	,	PUNCT	Z	_	10	advmod	_	_
+6	ὡς	ὡς	ADV	Dq	PronType=Rel	10	advmod	_	_
+7	ἔριον	ἔριον	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	λευκὸν	λευκός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+9	ἐκνίψας	ἐκνίπτω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	advcl	_	_
+10	ποιήσω	ποιέω	VERB	V-	Aspect=Perf|Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+11	.	.	PUNCT	Z	_	10	punct	_	_

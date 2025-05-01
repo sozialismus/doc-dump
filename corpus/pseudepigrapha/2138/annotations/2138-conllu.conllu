@@ -1,0 +1,79 @@
+# newdoc id = 2138
+
+# sent_id = 2138-1
+# text = ΡΑΓΟΥΗΛ·
+1	ΡΑΓΟΥΗΛ	ΡΑΓΟΥΗΛ	PROPN	Ne	_	0	ROOT	_	NER=PERSON|SpaceAfter=No
+2	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2138-2
+# text = ὦ ξένε, καλόν σοι τοῦτ᾽ ἐσήμηνεν θεός·
+1	ὦ	ὦ	INTJ	I-	_	2	discourse	_	_
+2	ξένε	ξένος	NOUN	Nb	Case=Voc|Gender=Masc|Number=Sing	3	vocative	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	0	ROOT	_	_
+4	καλόν	καλός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	advmod	_	_
+5	σοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+6	τοῦτ᾽	τοῦτ᾽	ADJ	Pd	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+7	ἐσήμηνεν	σημαίνω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl	_	_
+8	θεός	θεός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	·	·	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 2138-3
+# text = ζῴην δ᾽, ὅταν σοι ταῦτα συμβαίνῃ ποτέ.
+1	ζῴην	ζήω	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	0	ROOT	_	_
+2	δ᾽	δ᾽	ADV	Df	_	1	discourse	_	SpaceAfter=No
+3	,	,	PUNCT	Z	_	1	advmod	_	_
+4	ὅταν	ὅταν	ADV	Dq	PronType=Rel	7	advmod	_	_
+5	σοι	σύ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+6	ταῦτα	οὗτος	ADJ	Pd	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+7	συμβαίνῃ	συμβαίνω	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+8	ποτέ	ποτε	ADV	Df	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 2138-4
+# text = ἆρά γε μέγαν τιν᾽ ἐξαναστήσεις θρόνου καὶ αὐτὸς βραβεύσεις καὶ καθηγήσῃ βροτῶν;
+1	ἆρά	ἆρα	ADV	Df	_	5	discourse	_	_
+2	γε	γε	ADV	Df	_	5	discourse	_	_
+3	μέγαν	μέγας	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	τιν᾽	τιν᾽	ADJ	Px	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+5	ἐξαναστήσεις	ἐξαναστήσω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	θρόνου	θρόνος	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	5	iobj	_	_
+7	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+8	αὐτὸς	αὐτός	ADJ	Pd	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	βραβεύσεις	βραβεύσω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	καὶ	καί	CCONJ	C-	_	5	cc	_	_
+11	καθηγήσῃ	καθηνγάνω	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Mid	5	conj	_	_
+12	βροτῶν	βροτός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	11	iobj	_	SpaceAfter=No
+13	;	;	PUNCT	Z	_	5	cc	_	_
+
+# sent_id = 2138-5
+# text = τὸ δ᾽ εἰσθεᾶσθαι γῆν ὅλην τ᾽ οἰκουμένην καὶ τὰ ὑπένερθε καὶ ὑπὲρ οὐρανὸν θεοῦ·
+1	τὸ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	_
+2	δ᾽	δ᾽	ADV	Df	_	3	discourse	_	_
+3	εἰσθεᾶσθαι	εἰσθεᾶσθαι	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Mid	0	ROOT	_	_
+4	γῆν	γῆ	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	ὅλην	ὅλος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+6	τ᾽	τ᾽μι	CCONJ	C-	_	4	cc	_	_
+7	οἰκουμένην	οἰκουμένη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	_
+8	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+9	τὰ	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	10	det	_	_
+10	ὑπένερθε	ὑπένερθε	ADV	Df	_	4	conj	_	_
+11	καὶ	καί	CCONJ	C-	_	4	cc	_	_
+12	ὑπὲρ	ὑπέρ	ADP	R-	_	13	case	_	_
+13	οὐρανὸν	οὐρανός	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	_
+14	θεοῦ	θεός	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+15	·	·	PUNCT	Z	_	3	punct	_	_
+
+# sent_id = 2138-6
+# text = ὄψει τά τ᾽ ὄντα τά τε πρὸ τοῦ τά θ᾽ ὕστερον.
+1	ὄψει	ὄψος	VERB	V-	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+2	τά	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	4	det	_	_
+3	τ᾽	τ᾽	CCONJ	C-	_	4	cc	_	_
+4	ὄντα	εἰμί	AUX	V-	Case=Acc|Gender=Neut|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	1	obj	_	_
+5	τά	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	4	dep	_	_
+6	τε	τε	CCONJ	C-	_	4	cc	_	_
+7	πρὸ	πρό	ADP	R-	_	8	case	_	_
+8	τοῦ	ὁ	PRON	Pp	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	conj	_	_
+9	τά	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Dem	10	det	_	_
+10	θ᾽	θ᾽	CCONJ	C-	_	11	det	_	_
+11	ὕστερον	ὕστερος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No
+12	.	.	PUNCT	Z	_	1	punct	_	_

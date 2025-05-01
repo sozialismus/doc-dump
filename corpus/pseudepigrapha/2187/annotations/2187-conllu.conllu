@@ -1,0 +1,83 @@
+# newdoc id = 2187
+
+# sent_id = 2187-1
+# text = äü Ἀλέξανδρος δὲ ὁ Πολυΐστωρ ἐπικληθεὶς ἐν τῷ περὶ Ἰουδαίων συγγράμματι ἀνέγραψέν τινας ἐπιστολὰς Σολομῶνος μὲν πρός τε Οὐάφρην τὸν Αἰγύπτου βασιλέα πρός τε τὸν Φοινίκης Τυρίων τάς τε αὐτῶν πρὸς Σολομῶντα, καθ᾽ ἃς δείκνυται ὁ μὲν Οὐάφρης ὀκτὼ μυριάδας ἀνδρῶν Αἰγυπτίων ἀπεσταλκέναι αὐτῷ εἰς οἰκοδομὴν τοῦ νεώ,
+1	äü	äü	CCONJ	V-	_	6	iobj	_	_
+2	Ἀλέξανδρος	Ἀλέξανδρος	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	NER=PERSON
+3	δὲ	δέ	ADV	Df	_	12	discourse	_	_
+4	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	Πολυΐστωρ	Πολυΐστωρ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	dep	_	_
+6	ἐπικληθεὶς	ἐπικαλέω	VERB	V-	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	_
+7	ἐν	ἐν	ADP	R-	_	11	case	_	_
+8	τῷ	ὁ	DET	S-	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	11	det	_	_
+9	περὶ	περί	ADP	R-	_	10	case	_	_
+10	Ἰουδαίων	Ἰουδαῖος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	11	amod	_	NER=NORP
+11	συγγράμματι	σύγγραμμα	NOUN	Nb	Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+12	ἀνέγραψέν	ἀνέγραψέν	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+13	τινας	τίς	DET	Px	Case=Acc|Gender=Fem|Number=Plur	14	det	_	_
+14	ἐπιστολὰς	ἐπιστολή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+15	Σολομῶνος	Σολομών	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	NER=PERSON
+16	μὲν	μέν	ADV	Df	_	15	discourse	_	_
+17	πρός	πρός	ADP	R-	_	19	case	_	_
+18	τε	τε	CCONJ	C-	_	19	cc	_	_
+19	Οὐάφρην	Οὐάφρα	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	NER=PERSON
+20	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	22	det	_	_
+21	Αἰγύπτου	Αἴγυπτος	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	NER=LOC
+22	βασιλέα	βασιλεύς	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	19	appos	_	_
+23	πρός	πρός	ADP	R-	_	12	dep	_	_
+24	τε	τε	CCONJ	C-	_	12	cc	_	_
+25	τὸν	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	26	det	_	_
+26	Φοινίκης	Φοινίκη	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	12	dep	_	NER=LOC
+27	Τυρίων	Τύριος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	dep	_	NER=NORP
+28	τάς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+29	τε	τε	CCONJ	C-	_	12	cc	_	_
+30	αὐτῶν	αὐτός	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	dep	_	_
+31	πρὸς	πρός	ADP	R-	_	32	case	_	_
+32	Σολομῶντα	Σολομῶν	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	30	orphan	_	NER=PERSON|SpaceAfter=No
+33	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	2	amod	_	_
+34	καθ᾽	καθ᾽	ADP	R-	_	35	case	_	_
+35	ἃς	ὅς	PRON	Pr	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	36	obl	_	_
+36	δείκνυται	δείκνυμι	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	acl	_	_
+37	ὁ	ὁ	DET	S-	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	39	det	_	_
+38	μὲν	μέν	ADV	Df	_	39	discourse	_	_
+39	Οὐάφρης	Οὐάφρης	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	44	nsubj	_	NER=PERSON
+40	ὀκτὼ	ὀκτώ	NUM	Ma	_	41	nummod	_	_
+41	μυριάδας	μυριάς	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	44	obj	_	_
+42	ἀνδρῶν	ἀνήρ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	41	nmod	_	_
+43	Αἰγυπτίων	Αἰγύπτιος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	42	amod	_	NER=NORP
+44	ἀπεσταλκέναι	ἀποστέλλω	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+45	αὐτῷ	αὐτός	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	44	iobj	_	_
+46	εἰς	εἰς	ADP	R-	_	47	case	_	_
+47	οἰκοδομὴν	οἰκοδομή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	44	obl	_	_
+48	τοῦ	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Dem	49	det	_	_
+49	νεώ	νεώ	NOUN	Nb	Case=Gen|Gender=Masc|Number=Sing	47	nmod	_	SpaceAfter=No
+50	,	,	PUNCT	Z	_	12	dep	_	_
+
+# sent_id = 2187-2
+# text = ἅτερος δὲ τὰς ἴσας σὺν ἀρχιτέκτονι Τυρίῳ ἐκ μητρὸς Ἰουδαίας ἐκ τῆς φυλῆς Δαβίδ, ὡς ἐκεῖ γέγραπται,
+1	ἅτερος	ἕτερος	ADJ	A-	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	δὲ	δέ	ADV	Df	_	1	discourse	_	_
+3	τὰς	ὁ	DET	S-	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	ἴσας	ἴσος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+5	σὺν	σύν	ADP	R-	_	6	case	_	_
+6	ἀρχιτέκτονι	ἀρχιτέκτων	NOUN	Nb	Case=Dat|Gender=Masc|Number=Sing	4	orphan	_	_
+7	Τυρίῳ	Τύριος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	NER=NORP
+8	ἐκ	ἐκ	ADP	R-	_	9	case	_	_
+9	μητρὸς	μήτηρ	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+10	Ἰουδαίας	Ἰουδαία	PROPN	Ne	Case=Gen|Gender=Fem|Number=Sing	9	amod	_	NER=LOC
+11	ἐκ	ἐκ	ADP	R-	_	13	case	_	_
+12	τῆς	ὁ	DET	S-	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	φυλῆς	φυλή	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+14	Δαβίδ	Δαβίδ	PROPN	Ne	_	13	nmod	_	NER=PERSON|SpaceAfter=No
+15	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	19	nummod	_	_
+16	ὡς	ὡς	ADV	Dq	PronType=Rel	18	advmod	_	_
+17	ἐκεῖ	ἐκεῖ	ADV	Df	_	18	advmod	_	_
+18	γέγραπται	γράφω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	15	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 2187-3
+# text = Ὑπέρων τοὔνομα.
+1	Ὑπέρων	Ὑπέρων	NOUN	Nb	_	0	ROOT	_	_
+2	τοὔ	τοὔ	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No
+3	νομα	νομα	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	.	.	PUNCT	Z	_	1	punct	_	_

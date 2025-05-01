@@ -1,0 +1,41 @@
+# newdoc id = 587
+
+# sent_id = 587-1
+# text = Εἲς Ἥραν Ἥρην ἀείδω χρυσόθρονον, ἣν τέκε Ῥείη, ἀθανάτων βασίλειαν, ὑπείροχον εἶδος ἔχουσαν, Ζην̀ς ἐριγδούποιο κασιγνήτην ἄλοχόν τε, κυδρήν, ἣν πάντες μάκαρες κατὰ μακρὸν Ὄλυμπον ἁζόμενοι τίουσιν ὁμῶς Διὶ τερπικεραύνῳ.
+1	Εἲς	Εἲς	ADP	R-	_	2	case	_	_
+2	Ἥραν	Ἥρα	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	NER=GOD
+3	Ἥρην	Ἥρα	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	NER=GOD
+4	ἀείδω	ἀείδω	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+5	χρυσόθρονον	χρυσόθρονος	ADJ	A-	Case=Acc|Degree=Pos|Number=Sing	3	amod	_	SpaceAfter=No
+6	,	,	PUNCT	Z	Case=Acc|Gender=Fem|Number=Sing	2	appos	_	_
+7	ἣν	ὅς	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	8	obj	_	_
+8	τέκε	τίκτω	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl	_	_
+9	Ῥείη	Ῥέα	PROPN	Ne	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	NER=PERSON|SpaceAfter=No
+10	,	,	PUNCT	Z	_	4	dislocated	_	_
+11	ἀθανάτων	ἀθάνατος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	12	amod	_	_
+12	βασίλειαν	βασίλεια	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	3	appos	_	SpaceAfter=No
+13	,	,	PUNCT	Z	_	16	advmod	_	_
+14	ὑπείροχον	ὑπέροχος	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	εἶδος	εἶδος	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+16	ἔχουσαν	ἔχω	VERB	V-	Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	_	SpaceAfter=No
+17	,	,	PUNCT	Z	_	4	dep	_	_
+18	Ζην̀ς	Ζην̀ς	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	4	dep	_	NER=GOD
+19	ἐριγδούποιο	ἐρίγδουπος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	nmod	_	_
+20	κασιγνήτην	κασιγνήτη	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	18	xcomp	_	_
+21	ἄλοχόν	ἄλοχος	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	20	conj	_	_
+22	τε	τε	CCONJ	C-	_	20	cc	_	SpaceAfter=No
+23	,	,	PUNCT	Z	_	3	appos	_	_
+24	κυδρήν	κυδρός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+25	,	,	PUNCT	Z	Case=Acc|Gender=Fem|Number=Sing	4	dep	_	_
+26	ἣν	ὅς	PRON	Pr	Case=Acc|Gender=Fem|Number=Sing|PronType=Rel	33	obj	_	_
+27	πάντες	πᾶς	DET	Px	Case=Nom|Gender=Masc|Number=Plur	28	det	_	_
+28	μάκαρες	μάκαρ	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	33	nsubj	_	_
+29	κατὰ	κατά	ADP	R-	_	31	case	_	_
+30	μακρὸν	μακρός	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	31	amod	_	_
+31	Ὄλυμπον	Ὄλυμπος	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	32	obl	_	NER=LOC
+32	ἁζόμενοι	ἅζομαι	VERB	V-	Case=Nom|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	33	advcl	_	_
+33	τίουσιν	τίω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl	_	_
+34	ὁμῶς	ὁμῶς	ADV	Df	_	33	advmod	_	_
+35	Διὶ	Ζεύς	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	34	iobj	_	NER=GOD
+36	τερπικεραύνῳ	τερπικέραυνος	ADJ	A-	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	SpaceAfter=No
+37	.	.	PUNCT	Z	_	4	punct	_	_

@@ -1,0 +1,99 @@
+# newdoc id = 357
+
+# sent_id = 357-1
+# text = Εἲς Μούσας Καὶ Ἀπόλλωνα
+1	Εἲς	εἲς	ADP	R-	_	2	case	_	_
+2	Μούσας	Μοῦσα	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	0	ROOT	_	NER=GOD
+3	Καὶ	καί	CCONJ	C-	_	2	cc	_	_
+4	Ἀπόλλωνα	Ἀπόλλων	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	2	conj	_	NER=GOD
+
+# sent_id = 357-2
+# text = μουσάων ἄρχωμαι Ἀπόλλωνός τε Διός τε·
+1	μουσάων	Μοῦσα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	2	iobj	_	NER=GOD
+2	ἄρχωμαι	ἄρχωμαι	VERB	V-	Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+3	Ἀπόλλωνός	Ἀπόλλων	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	2	dep	_	NER=GOD
+4	τε	τε	CCONJ	C-	_	3	cc	_	_
+5	Διός	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	NER=GOD
+6	τε	τε	CCONJ	C-	_	3	cc	_	SpaceAfter=No
+7	·	·	PUNCT	Z	_	2	punct	_	_
+
+# sent_id = 357-3
+# text = ἐκ γὰρ Μουσάων καὶ ἑκηβόλου Ἀπόλλωνος ἄνδρες ἀοιδοὶ ἔασιν ἐπὶ χθονὶ καὶ κιθαρισταί,
+1	ἐκ	ἐκ	ADP	R-	_	3	case	_	_
+2	γὰρ	γάρ	ADV	Df	_	9	discourse	_	_
+3	Μουσάων	Μοῦσα	NOUN	Nb	Case=Gen|Gender=Fem|Number=Plur	9	obl	_	_
+4	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+5	ἑκηβόλου	ἑκηβόλος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	Ἀπόλλωνος	Ἀπόλλων	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	3	conj	_	NER=GOD
+7	ἄνδρες	ἀνήρ	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	ἀοιδοὶ	ἀοιδός	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	9	xcomp	_	_
+9	ἔασιν	εἶμι	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+10	ἐπὶ	ἐπί	ADP	R-	_	11	case	_	_
+11	χθονὶ	χθών	NOUN	Nb	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+12	καὶ	καί	CCONJ	C-	_	7	cc	_	_
+13	κιθαρισταί	κιθαριστής	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+14	,	,	PUNCT	Z	_	7	amod	_	_
+
+# sent_id = 357-4
+# text = ἐκ δὲ Διὸς βασιλῆες
+1	ἐκ	ἐκ	ADP	R-	_	4	case	_	_
+2	δὲ	δέ	ADV	Df	_	4	discourse	_	_
+3	Διὸς	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	4	orphan	_	NER=GOD
+4	βασιλῆες	βασιλεύς	NOUN	Nb	Case=Nom|Gender=Masc|Number=Plur	0	ROOT	_	SpaceAfter=No
+
+# sent_id = 357-5
+# text = ·
+1	·	·	PUNCT	Z	_	0	ROOT	_	_
+
+# sent_id = 357-6
+# text = ὃ δʼ ὄλβιος, ὅν τινα Μοῦσαι φίλωνται·
+1	ὃ	ὁ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	δʼ	δέ	ADV	Df	_	3	discourse	_	_
+3	ὄλβιος	ὄλβιος	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+5	ὅν	ὅς	PRON	Pr	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	8	obj	_	_
+6	τινα	τίς	DET	Px	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+7	Μοῦσαι	Μοῦσα	NOUN	Nb	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	NER=GOD
+8	φίλωνται	φιλέω	VERB	V-	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	acl	_	SpaceAfter=No
+9	·	·	PUNCT	Z	_	4	punct	_	_
+
+# sent_id = 357-7
+# text = γλυκερή οἱ ἀπὸ στόματος ῥέει αὐδή.
+1	γλυκερή	γλυκερός	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+2	οἱ	ὁ	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	_
+3	ἀπὸ	ἀπό	ADP	R-	_	4	case	_	_
+4	στόματος	στόμα	NOUN	Nb	Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+5	ῥέει	ῥέω	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	_
+6	αὐδή	αὐδή	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	Z	_	5	punct	_	_
+
+# sent_id = 357-8
+# text = χαίρετε,
+1	χαίρετε	χαίρω	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	ROOT	_	SpaceAfter=No
+2	,	,	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 357-9
+# text = τέκνα Διός
+1	τέκνα	τέκνον	NOUN	Nb	Case=Voc|Gender=Neut|Number=Plur	0	ROOT	_	_
+2	Διός	Ζεύς	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	NER=GOD|SpaceAfter=No
+
+# sent_id = 357-10
+# text = , καὶ ἐμὴν τιμήσατʼ ἀοιδήν·
+1	,	,	PUNCT	Z	Case=Acc|Gender=Masc|Number=Sing	0	ROOT	_	_
+2	καὶ	καί	CCONJ	C-	_	1	cc	_	_
+3	ἐμὴν	ἐμός	ADJ	Ps	Case=Acc|Gender=Fem|Number=Sing|Person=1|Poss=Yes	4	dep	_	_
+4	τιμήσατʼ	τιμήσα	VERB	V-	Aspect=Perf|Mood=Opt|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+5	ἀοιδήν	ἀοιδή	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+6	·	·	PUNCT	Z	_	1	punct	_	_
+
+# sent_id = 357-11
+# text = αὐτὰρ ἐγὼν ὑμέων τε καὶ ἄλλης μνήσομʼ ἀοιδῆς.
+1	αὐτὰρ	ἀτάρ	ADV	Df	_	7	discourse	_	_
+2	ἐγὼν	ἐγώ	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	ὑμέων	ὑμεῖς	PRON	Pp	Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Prs	7	iobj	_	_
+4	τε	τε	CCONJ	C-	_	3	cc	_	_
+5	καὶ	καί	CCONJ	C-	_	3	cc	_	_
+6	ἄλλης	ἄλλος	ADJ	A-	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	_
+7	μνήσομʼ	μνήσομαι	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	ROOT	_	_
+8	ἀοιδῆς	ἀοιδή	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	7	iobj	_	SpaceAfter=No
+9	.	.	PUNCT	Z	_	7	punct	_	_
